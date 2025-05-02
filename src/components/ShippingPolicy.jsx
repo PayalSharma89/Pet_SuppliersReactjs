@@ -2,13 +2,13 @@ import React from 'react';
 
 function ShippingPolicy() {
   return (
-    <div className="container rtl pb-4 pt-3 px-0 px-md-3">
+    <div className="container rtl pb-4 pt-3 px-0 px-md-3 mt-3" style={{ backgroundColor: 'white' }}>
       <div className="shipping-policy-web">
         <div className="row g-3 justify-content-center mx-max-md-0">
           
           {/* First Shipping Box */}
           <div className="col-md-3 d-flex justify-content-center px-max-md-0">
-            <div className="shipping-method-system">
+            <div className="shipping-method-system" >
               <div className="text-center">
                 <img
                   className="mr-2 size-60"
