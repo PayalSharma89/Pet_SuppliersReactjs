@@ -1,8 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules"; // Removed Navigation
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Brands = () => {
@@ -17,17 +16,17 @@ const Brands = () => {
     { src: "src/assets/images/Brand8.webp", alt: "Brand 8" },
     { src: "src/assets/images/Brand9.webp", alt: "Brand 9" },
     { src: "src/assets/images/Brand10.webp", alt: "Brand 10" },
-    { src: "src/assets/images/Brand11.webp", alt: "Brand 10" },
-    { src: "src/assets/images/Brand12.webp", alt: "Brand 10" },
-    { src: "src/assets/images/Brand13.webp", alt: "Brand 10" },
-    { src: "src/assets/images/Brand14.webp", alt: "Brand 10" },
-    { src: "src/assets/images/Brand15.webp", alt: "Brand 10" },
+    { src: "src/assets/images/Brand11.webp", alt: "Brand 11" },
+    { src: "src/assets/images/Brand12.webp", alt: "Brand 12" },
+    { src: "src/assets/images/Brand13.webp", alt: "Brand 13" },
+    { src: "src/assets/images/Brand14.webp", alt: "Brand 14" },
+    { src: "src/assets/images/Brand15.webp", alt: "Brand 15" },
   ];
 
   const imageStyle = {
     borderRadius: "50%",
-    width: "70px",
-    height: "70px",
+    width: "90px",
+    height: "90px",
     objectFit: "cover",
     border: "1px solid #eee",
     padding: "2px",
@@ -56,11 +55,11 @@ const Brands = () => {
         <div className="row mt-4">
           <div className="col-12">
             <Swiper
-              modules={[Navigation, Pagination]}
-              spaceBetween={0} // reduced spacing between images
+              modules={[Pagination, Autoplay]} // ❌ Removed Navigation
+              spaceBetween={0}
               slidesPerView={5}
-              navigation
               pagination={{ clickable: true }}
+              autoplay={{ delay: 2000, disableOnInteraction: false }}
               breakpoints={{
                 320: { slidesPerView: 3 },
                 768: { slidesPerView: 5 },

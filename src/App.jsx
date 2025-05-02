@@ -14,6 +14,7 @@ import Brands from "../src/components/Brands";
 import Cat from "../src/components/Cat";
 import Dog from "../src/components/Dog";
 import Fish from "../src/components/Fish";
+import SmallBirds from "../src/components/SmallBirds";
 import NewArrivals from "../src/components/NewArrivals";
 import ShippingPolicy from "../src/components/ShippingPolicy";
 
@@ -34,6 +35,7 @@ function App() {
       <Cat />
       <Dog />
       <Fish />
+      <SmallBirds/>
       <ShippingPolicy />
       <Footer />
     </>
