@@ -1,6 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
 
 const products = [
   {
@@ -51,38 +50,6 @@ const products = [
     outOfStock: false,
     image: "src/assets/images/small6.webp",
   },
-  // {
-  //   id: 20,
-  //   title: "Organic SmallBirdsnip Leaves",
-  //   price: "$350",
-  //   unit: "pack",
-  //   outOfStock: false,
-  //   image: "",
-  // },
-  // {
-  //   id: 21,
-  //   title: "SmallBirds Treats Mix",
-  //   price: "$650",
-  //   unit: "box",
-  //   outOfStock: false,
-  //   image: "",
-  // },
-  // {
-  //   id: 22,
-  //   title: "Fish Flavored SmallBirds Food",
-  //   price: "$900",
-  //   unit: "kg",
-  //   outOfStock: true,
-  //   image: "",
-  // },
-  // {
-  //   id: 23,
-  //   title: "Premium SmallBirds Kibble",
-  //   price: "$1,800",
-  //   unit: "kg",
-  //   outOfStock: false,
-  //   image: "",
-  // },
 ];
 
 const SmallBirds = () => {
@@ -95,7 +62,7 @@ const SmallBirds = () => {
             className="text-uppercase fw-bold m-0"
             style={{ fontSize: "20px" }}
           >
-            Small Pets
+            🐰Small Pets
           </h2>
           <a
             href="#"
@@ -109,10 +76,9 @@ const SmallBirds = () => {
         {/* Swiper with top margin */}
         <div className="mt-3">
           <Swiper
-            modules={[Navigation]}
+            modules={[]}
             spaceBetween={15}
             slidesPerView={1.5}
-            navigation
             breakpoints={{
               576: { slidesPerView: 2 },
               768: { slidesPerView: 3 },
@@ -143,7 +109,6 @@ const SmallBirds = () => {
                     <img
                       src={product.image}
                       alt={product.title}
-                    
                       className="img-fluid"
                       style={{
                         height: "100%",

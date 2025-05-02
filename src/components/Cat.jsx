@@ -96,7 +96,7 @@ const Cat = () => {
             className="text-uppercase fw-bold m-0"
             style={{ fontSize: "20px" }}
           >
-            Cat
+            🐈Cat
           </h2>
           <a
             href="#"

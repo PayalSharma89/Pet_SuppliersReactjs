@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules"; 
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -55,10 +55,9 @@ const Brands = () => {
         <div className="row mt-4">
           <div className="col-12">
             <Swiper
-              modules={[Pagination, Autoplay]} // ❌ Removed Navigation
+              modules={[Autoplay]}
               spaceBetween={0}
               slidesPerView={5}
-              pagination={{ clickable: true }}
               autoplay={{ delay: 2000, disableOnInteraction: false }}
               breakpoints={{
                 320: { slidesPerView: 3 },

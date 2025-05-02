@@ -1,6 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
 
 const products = [
   {
@@ -95,7 +94,7 @@ const Fish = () => {
             className="text-uppercase fw-bold m-0"
             style={{ fontSize: "20px" }}
           >
-            Fish
+            🐠Fish
           </h2>
           <a
             href="#"
@@ -109,10 +108,10 @@ const Fish = () => {
         {/* Swiper with top margin */}
         <div className="mt-3">
           <Swiper
-            modules={[Navigation]}
+            modules={[]}
             spaceBetween={15}
             slidesPerView={1.5}
-            navigation
+            
             breakpoints={{
               576: { slidesPerView: 2 },
               768: { slidesPerView: 3 },

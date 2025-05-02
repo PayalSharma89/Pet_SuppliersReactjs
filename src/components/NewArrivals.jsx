@@ -1,9 +1,8 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Scrollbar, A11y, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const products = [
   {
@@ -73,32 +72,45 @@ const NewArrivals = () => {
           <div className="new_arrival_product">
             <div className="carousel-wrap">
               <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Scrollbar, A11y, Autoplay]}
                 spaceBetween={20}
-                slidesPerView={2}
-                navigation
-                pagination={{ clickable: true }}
+                loop={true}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                }}
                 breakpoints={{
                   0: { slidesPerView: 1 },
                   768: { slidesPerView: 2 },
-                  992: { slidesPerView: 3 },
+                  992: { slidesPerView: 4 },
                 }}
                 dir="rtl"
                 className="new-arrivals-product"
               >
                 {products.map((product, index) => (
                   <SwiperSlide key={index}>
-                    <div className="flash_deal_product rtl" onClick={() => window.location.href = '#'}>
+                    <div
+                      className="flash_deal_product rtl"
+                      onClick={() => (window.location.href = "#")}
+                    >
                       {product.discount && (
-                        <span className="for-discoutn-value p-1 pl-2 pr-2">{product.discount} Off</span>
+                        <span className="for-discoutn-value p-1 pl-2 pr-2">
+                          {product.discount} Off
+                        </span>
                       )}
                       <div className="d-flex">
-                        <div className="d-flex align-items-center justify-content-center" style={{ paddingLeft: "12px", paddingBlock: "12px" }}>
+                        <div
+                          className="d-flex align-items-center justify-content-center"
+                          style={{ paddingLeft: "12px", paddingBlock: "12px" }}
+                        >
                           <div className="flash-deals-background-image">
                             <img
                               className="__img-125px"
                               src={product.img}
-                              onError={(e) => { e.target.src = 'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png'; }}
+                              onError={(e) => {
+                                e.target.src =
+                                  "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png";
+                              }}
                               alt="product"
                             />
                           </div>
@@ -106,17 +118,27 @@ const NewArrivals = () => {
                         <div className="flash_deal_product_details pl-3 pr-3 pr-1 d-flex mt-3">
                           <div>
                             <div>
-                              <a href="#" className="flash-product-title text-capitalize fw-semibold">
+                              <a
+                                href="#"
+                                className="flash-product-title text-capitalize fw-semibold"
+                              >
                                 {product.name}
                               </a>
                             </div>
                             <div className="d-flex flex-wrap gap-8 align-items-center row-gap-0">
                               {product.discount && (
-                                <strike style={{ fontSize: "12px", color: "#9B9B9B" }}>{product.originalPrice}</strike>
+                                <strike
+                                  style={{ fontSize: "12px", color: "#9B9B9B" }}
+                                >
+                                  {product.originalPrice}
+                                </strike>
                               )}
-                              <span className="flash-product-price text-dark fw-semibold">{product.price}</span>
+                              <span className="flash-product-price text-dark fw-semibold">
+                                {product.price}
+                              </span>
                               <div>
-                                <span className="text-capitalize fw-semibold"
+                                <span
+                                  className="text-capitalize fw-semibold"
                                   style={{
                                     fontSize: "9pt",
                                     display: "inline-block",
@@ -127,8 +149,9 @@ const NewArrivals = () => {
                                     color: "#FFFFFF",
                                     textAlign: "center",
                                     lineHeight: "30px",
-                                    padding: "0 10px"
-                                  }}>
+                                    padding: "0 10px",
+                                  }}
+                                >
                                   {product.unit}
                                 </span>
                               </div>
