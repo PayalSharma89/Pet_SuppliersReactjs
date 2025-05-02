@@ -5,15 +5,15 @@ import { Navigation } from "swiper/modules";
 const products = [
   {
     id: 16,
-    title: "Dog food sub sub",
+    title: "Fish food sub sub",
     price: "$2,000",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/Dog1.webp",
+    image: "src/assets/images/Fish1.webp",
   },
   {
     id: 10,
-    title: "Dog food p1",
+    title: "Fish food p1",
     price: "$1,000",
     unit: "kg",
     outOfStock: false,
@@ -29,7 +29,7 @@ const products = [
   },
   {
     id: 17,
-    title: "Dog Dry Food Max",
+    title: "Fish Dry Food Max",
     price: "$1,500",
     unit: "kg",
     outOfStock: false,
@@ -45,7 +45,7 @@ const products = [
   },
   {
     id: 19,
-    title: "Tuna Canned Dog Food",
+    title: "Tuna Canned Fish Food",
     price: "$800",  
     unit: "can",
     outOfStock: false,
@@ -53,7 +53,7 @@ const products = [
   },
   {
     id: 20,
-    title: "Organic Dognip Leaves",
+    title: "Organic Fishnip Leaves",
     price: "$350",
     unit: "pack",
     outOfStock: false,
@@ -61,7 +61,7 @@ const products = [
   },
   {
     id: 21,
-    title: "Dog Treats Mix",
+    title: "Fish Treats Mix",
     price: "$650",
     unit: "box",
     outOfStock: false,
@@ -69,7 +69,7 @@ const products = [
   },
   {
     id: 22,
-    title: "Fish Flavored Dog Food",
+    title: "Fish Flavored Fish Food",
     price: "$900",
     unit: "kg",
     outOfStock: true,
@@ -77,7 +77,7 @@ const products = [
   },
   {
     id: 23,
-    title: "Premium Dog Kibble",
+    title: "Premium Fish Kibble",
     price: "$1,800",
     unit: "kg",
     outOfStock: false,
@@ -85,7 +85,7 @@ const products = [
   },
 ];
 
-const Dog = () => {
+const Fish = () => {
   return (
     <section className="container pb-4" style={{ marginTop: "25px" }}>
       <div className="shadow p-4 rounded bg-white">
@@ -95,7 +95,7 @@ const Dog = () => {
             className="text-uppercase fw-bold m-0"
             style={{ fontSize: "20px" }}
           >
-            Dog
+            Fish
           </h2>
           <a
             href="#"
@@ -204,4 +204,4 @@ const Dog = () => {
   );
 };
 
-export default Dog;
+export default Fish;
