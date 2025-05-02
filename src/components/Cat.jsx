@@ -1,5 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+// Removed the Navigation import since we are disabling navigation
 import { Navigation } from "swiper/modules";
 
 const products = [
@@ -109,10 +110,10 @@ const Cat = () => {
         {/* Swiper with top margin */}
         <div className="mt-3">
           <Swiper
-            modules={[Navigation]}
+            modules={[Navigation]} // You can remove this import if you don't want navigation at all.
             spaceBetween={15}
             slidesPerView={1.5}
-            navigation
+            // Removed `navigation` from here to disable arrows
             breakpoints={{
               576: { slidesPerView: 2 },
               768: { slidesPerView: 3 },
@@ -143,7 +144,6 @@ const Cat = () => {
                     <img
                       src={product.image}
                       alt={product.title}
-                    
                       className="img-fluid"
                       style={{
                         height: "100%",

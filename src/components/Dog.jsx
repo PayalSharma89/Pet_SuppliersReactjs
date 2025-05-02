@@ -116,7 +116,7 @@ const Dog = () => {
             breakpoints={{
               576: { slidesPerView: 2 },
               768: { slidesPerView: 3 },
-              992: { slidesPerView: 4 },
+              992: { slidesPerView: 6 },
             }}
           >
             {products.map((product) => (
