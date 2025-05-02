@@ -5,7 +5,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-
 const Brands = () => {
   const brandImages = [
     { src: "src/assets/images/Brand1.webp", alt: "Brand 1" },
