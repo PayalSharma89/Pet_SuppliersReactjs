@@ -80,8 +80,8 @@ const CategorySlider = () => {
                     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
                 }
                 .category-img {
-                    width: 70px;
-                    height: 70px;
+                    width: 100px;
+                    height: 100px;
                     border-radius: 50%;
                     overflow: hidden;
                     transition: 0.3s ease;

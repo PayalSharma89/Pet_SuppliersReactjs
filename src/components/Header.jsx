@@ -7,7 +7,7 @@ const Header = () => {
         <header className="box-shadow-sm rtl __inline-10">
             <div className="topbar">
                 <div className="container">
-                    <div>
+                    {/* <div>
                         <div className="topbar-text dropdown d-md-none ml-auto">
                             <a className="topbar-link" href="tel:000000000">
                                 <i className="fa fa-phone"></i> +21 72374623
@@ -21,9 +21,9 @@ const Header = () => {
                                 <i className="fa fa-phone"></i> +21 893274623
                             </a>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div>
+                    {/* <div>
                         <div className="topbar-text dropdown disable-autohide __language-bar text-capitalize">
                             <a
                                 className="topbar-link dropdown-toggle"
@@ -100,7 +100,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
