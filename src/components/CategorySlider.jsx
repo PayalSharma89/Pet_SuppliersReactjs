@@ -12,18 +12,53 @@ const CategorySlider = () => {
     return (
         <section className="pb-4 rtl">
             <div className="container">
-                <div className="card __shadow h-100 max-md-shadow-0">
-                    <div className="card-body">
-                        <div className="d-flex justify-content-between align-items-center">
-                            <h5 className="m-0 fw-bold">Categories</h5>
-                            <a href="#" className="text-decoration-none text-primary small">
-                                View all <i className="czi-arrow-right ml-1"></i>
-                            </a>
-                        </div>
-
-                        {/* Desktop View */}
-                        <div className="d-none d-md-block mt-3">
-                            <div className="row">
+                <div>
+                    <div className="card __shadow h-100 max-md-shadow-0">
+                        <div className="card-body">
+                            <div className="d-flex justify-content-between">
+                                <div className="categories-title m-0">
+                                    <span className="font-semibold">
+                                        Categories
+                                    </span>
+                                </div>
+                                <div>
+                                    <a
+                                        className="text-capitalize view-all-text"
+                                        style={{ color: "#1f3dc2!important" }}
+                                        href="#"
+                                    >
+                                        View all
+                                        <i className="czi-arrow-right ml-1 mr-n1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="d-none d-md-block">
+                                <div className="row mt-3">
+                                    {categories.map((category, index) => (
+                                        <div
+                                            key={index}
+                                            className="text-center __m-5px __cate-item"
+                                        >
+                                            <a href={category.link}>
+                                                <div className="__img">
+                                                    <img
+                                                        onError={(e) =>
+                                                            (e.target.src =
+                                                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                                        }
+                                                        src={category.imgSrc}
+                                                        alt={category.name}
+                                                    />
+                                                </div>
+                                                <p className="text-center small mt-2">
+                                                    {category.name}
+                                                </p>
+                                            </a>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="d-md-none">
                                 {categories.map((category, index) => (
                                     <div key={index} className="col text-center mb-3">
                                         <a

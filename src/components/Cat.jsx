@@ -6,7 +6,7 @@ import { Navigation } from "swiper/modules";
 const products = [
   {
     id: 16,
-    title: "Cat food sub sub",
+    title: "Bonnie Adult Chicken",
     price: "$2,000",
     unit: "kg",
     outOfStock: true,
@@ -14,7 +14,7 @@ const products = [
   },
   {
     id: 10,
-    title: "Cat food p1",
+    title: "Beaphar kitty taurine",
     price: "$1,000",
     unit: "kg",
     outOfStock: false,
@@ -22,7 +22,7 @@ const products = [
   },
   {
     id: 15,
-    title: "Rose Flower",
+    title: "Cat Zone Litter ",
     price: "$200",
     unit: "pc",
     outOfStock: false,
@@ -30,7 +30,7 @@ const products = [
   },
   {
     id: 17,
-    title: "Cat Dry Food Max",
+    title: "Mio Cat Litter Orange",
     price: "$1,500",
     unit: "kg",
     outOfStock: false,
@@ -38,7 +38,7 @@ const products = [
   },
   {
     id: 18,
-    title: "Whiskas Kitten Food",
+    title: "Royal Canin Skin and Coat",
     price: "$1,200",
     unit: "kg",
     outOfStock: true,
@@ -101,7 +101,7 @@ const Cat = () => {
           <a
             href="#"
             className="ms-auto"
-            style={{ color: "#37b4cc", whiteSpace: "nowrap" }}
+            style={{ color: "#1f3dc2", whiteSpace: "nowrap" }}
           >
             View all <i className="czi-arrow-right ml-1"></i>
           </a>
@@ -179,7 +179,7 @@ const Cat = () => {
                       <span>{product.price}</span>
                       <span
                         style={{
-                          backgroundColor: "#37B4CC",
+                          backgroundColor: "#1f3dc2",
                           color: "#fff",
                           borderRadius: "50%",
                           width: "30px",

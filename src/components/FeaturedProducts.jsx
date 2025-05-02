@@ -62,28 +62,28 @@ const products = [
 ];
 
 const FeaturedProducts = () => {
-  return (
-    <div className="container py-4 rtl px-0 px-md-3">
-      <div className="__inline-62 pt-3">
-        <div
-          className="feature-product-title mt-0 text-center fw-bold"
-          style={{
-            color: "#37b4cc",
-            fontSize: "22px",
-            fontWeight: "800px",
-          }}
-        >
-          Featured Products
-        </div>
-        <div className="text-end px-3 d-none d-md-block">
-          <a
-            className="text-capitalize view-all-text"
-            href="#"
-            style={{ color: "#37b4cc" }}
-          >
-            View all <i className="czi-arrow-right ml-1"></i>
-          </a>
-        </div>
+    return (
+        <div className="container py-4 rtl px-0 px-md-3">
+            <div className="__inline-62 pt-3">
+                <div
+                    className="feature-product-title mt-0 text-center fw-bold"
+                    style={{
+                        color: "#1f3dc2",
+                        fontSize: "22px",
+                        fontWeight: "800px",
+                    }}
+                >
+                    Featured Products
+                </div>
+                <div className="text-end px-3 d-none d-md-block">
+                    <a
+                        className="text-capitalize view-all-text"
+                        href="#"
+                        style={{ color: "#1f3dc2" }}
+                    >
+                        View all <i className="czi-arrow-right ml-1"></i>
+                    </a>
+                </div>
 
         <div className="feature-product">
           <div className="carousel-wrap p-1">
@@ -161,36 +161,38 @@ const FeaturedProducts = () => {
                           </div>
                         </div>
 
-                        <div>
-                          <span
-                            className="text-capitalize fw-semibold"
-                            style={{
-                              fontSize: "9pt",
-                              display: "inline-block",
-                              minWidth: "30px",
-                              height: "30px",
-                              borderRadius: "50%",
-                              backgroundColor: "#37B4CC",
-                              color: "#FFFFFF",
-                              textAlign: "center",
-                              lineHeight: "30px",
-                              padding: "0 10px",
-                            }}
-                          >
-                            {product.unit}
-                          </span>
-                        </div>
-                      </div>
+                                                <div>
+                                                    <span
+                                                        className="text-capitalize fw-semibold"
+                                                        style={{
+                                                            fontSize: "9pt",
+                                                            display:
+                                                                "inline-block",
+                                                            minWidth: "30px",
+                                                            height: "30px",
+                                                            borderRadius: "50%",
+                                                            backgroundColor:
+                                                                "#1f3dc2",
+                                                            color: "#FFFFFF",
+                                                            textAlign: "center",
+                                                            lineHeight: "30px",
+                                                            padding: "0 10px",
+                                                        }}
+                                                    >
+                                                        {product.unit}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
                     </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 const quickView = (id) => {
