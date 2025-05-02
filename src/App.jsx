@@ -11,7 +11,7 @@ import Footer from "../src/components/Footer";
 import LatestProduct from "./components/LatestProducts";
 import SellingSection from "../src/components/Sellings";
 import Brands from "../src/components/Brands";
-import CategoryProductSection from "../src/components/CategoryProductSection";
+import Cat from "../src/components/Cat";
 import NewArrivals from "../src/components/NewArrivals";
 import ShippingPolicy from "../src/components/ShippingPolicy";
 
@@ -29,7 +29,7 @@ function App() {
       <NewArrivals />
       <SellingSection />
       <Brands />
-      <CategoryProductSection />
+      <Cat />
       <ShippingPolicy />
       <Footer />
     </>

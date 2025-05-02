@@ -85,7 +85,7 @@ const products = [
   },
 ];
 
-const CategoryProductSection = () => {
+const Cat = () => {
   return (
     <section className="container pb-4" style={{ marginTop: "25px" }}>
       <div className="shadow p-4 rounded bg-white">
@@ -204,4 +204,4 @@ const CategoryProductSection = () => {
   );
 };
 
-export default CategoryProductSection;
+export default Cat;
