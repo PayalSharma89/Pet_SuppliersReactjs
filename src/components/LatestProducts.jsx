@@ -210,7 +210,7 @@ const LatestProduct = () => {
                                                             height: "30px",
                                                             borderRadius: "50%",
                                                             backgroundColor:
-                                                                "#1b1a30",
+                                                                "#5C5B64",
                                                             color: "#FFFFFF",
                                                             textAlign: "center",
                                                             lineHeight: "30px",
