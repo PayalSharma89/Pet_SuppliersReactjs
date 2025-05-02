@@ -35,7 +35,7 @@ margin-top: 13px;
     height: 45px;
 }
 .search-btn {
-    background-color: #37b4cc !important;
+    background-color: #1f3dc2 !important;
     border: none !important;
     border-radius: 0 5px 5px 0px !important;
     color: #fff !important;
@@ -48,7 +48,7 @@ margin-top: 13px;
     background-color: #f3f5f9 !important;
     padding: 15px;
     border-radius: 20px;
-    color: #37b4cc;
+    color: #1f3dc2;
 }
 .social-icon .user-icons{
     background-color: #f3f5f9 !important;
@@ -60,7 +60,7 @@ margin-top: 13px;
     background-color: #f3f5f9 !important;
     padding: 15px;
     border-radius: 20px;
-    color: #37b4cc !important;
+    color: #1f3dc2 !important;
 }
 .social-icon {
     display: flex;

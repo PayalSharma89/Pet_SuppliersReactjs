@@ -44,7 +44,7 @@ const CategorySlider = () => {
                                 <div>
                                     <a
                                         className="text-capitalize view-all-text"
-                                        style={{ color: "#37b4cc!important" }}
+                                        style={{ color: "#1f3dc2!important" }}
                                         href="#"
                                     >
                                         View all

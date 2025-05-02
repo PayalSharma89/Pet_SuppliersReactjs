@@ -100,7 +100,7 @@ const Dog = () => {
           <a
             href="#"
             className="ms-auto"
-            style={{ color: "#37b4cc", whiteSpace: "nowrap" }}
+            style={{ color: "#1f3dc2", whiteSpace: "nowrap" }}
           >
             View all <i className="czi-arrow-right ml-1"></i>
           </a>
@@ -179,7 +179,7 @@ const Dog = () => {
                       <span>{product.price}</span>
                       <span
                         style={{
-                          backgroundColor: "#37B4CC",
+                          backgroundColor: "#1f3dc2",
                           color: "#fff",
                           borderRadius: "50%",
                           width: "30px",
