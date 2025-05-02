@@ -9,8 +9,7 @@ const products = [
     price: "$2,000",
     unit: "kg",
     outOfStock: true,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2024-02-15-65cdba9fd48e1.webp",
+    image: "",
   },
   {
     id: 10,
@@ -18,8 +17,7 @@ const products = [
     price: "$1,000",
     unit: "kg",
     outOfStock: false,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2023-12-13-65795a02a76af.webp",
+    image: "",
   },
   {
     id: 15,
@@ -27,8 +25,7 @@ const products = [
     price: "$200",
     unit: "pc",
     outOfStock: false,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2023-12-23-65875363a114c.webp",
+    image: "",
   },
   {
     id: 17,
@@ -36,8 +33,7 @@ const products = [
     price: "$1,500",
     unit: "kg",
     outOfStock: false,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2024-01-05-6597e08383c2e.webp",
+    image: "",
   },
   {
     id: 18,
@@ -45,8 +41,7 @@ const products = [
     price: "$1,200",
     unit: "kg",
     outOfStock: true,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2024-01-08-659c6d4be6e9b.webp",
+    image: "",
   },
   {
     id: 19,
@@ -54,8 +49,7 @@ const products = [
     price: "$800",
     unit: "can",
     outOfStock: false,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2024-02-01-65ba3ed5ca78a.webp",
+    image: "",
   },
   {
     id: 20,
@@ -63,8 +57,7 @@ const products = [
     price: "$350",
     unit: "pack",
     outOfStock: false,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2024-01-28-65b640cfd97ff.webp",
+    image: "",
   },
   {
     id: 21,
@@ -72,8 +65,7 @@ const products = [
     price: "$650",
     unit: "box",
     outOfStock: false,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2023-12-29-6590efef91c3b.webp",
+    image: "",
   },
   {
     id: 22,
@@ -81,8 +73,7 @@ const products = [
     price: "$900",
     unit: "kg",
     outOfStock: true,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2023-12-30-659079d3bd987.webp",
+    image: "",
   },
   {
     id: 23,
@@ -90,8 +81,7 @@ const products = [
     price: "$1,800",
     unit: "kg",
     outOfStock: false,
-    image:
-      "https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2023-12-22-6585b0a4c8c70.webp",
+    image: "",
   },
 ];
 
@@ -153,10 +143,7 @@ const CategoryProductSection = () => {
                     <img
                       src={product.image}
                       alt={product.title}
-                      onError={(e) => {
-                        e.target.src =
-                          "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png";
-                      }}
+                    
                       className="img-fluid"
                       style={{
                         height: "100%",
