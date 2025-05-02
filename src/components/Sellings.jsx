@@ -108,7 +108,7 @@ function SellingSection() {
         minWidth: '30px',
         height: '30px',
         borderRadius: '50%',
-        backgroundColor: '#1f3dc2',
+        backgroundColor: '#1b1a30',
         color: '#FFFFFF',
         textAlign: 'center',
         lineHeight: '30px',
@@ -188,7 +188,7 @@ function SellingSection() {
                                 <div>
                                     <a
                                         className="text-capitalize view-all-text"
-                                        style={{ color: '#1f3dc2' }}
+                                        style={{ color: '#1b1a30' }}
                                         href="#"
                                     >
                                         View all
@@ -219,7 +219,7 @@ function SellingSection() {
                                 <div>
                                     <a
                                         className="text-capitalize view-all-text"
-                                        style={{ color: '#1f3dc2' }}
+                                        style={{ color: '#1b1a30' }}
                                         href="https://six.valley.new.zeroitsolutions.com/products?data_from=top-rated&page=1"
                                     >
                                         View all
@@ -268,7 +268,7 @@ export default SellingSection;
 //                                 <div>
 //                                     <a
 //                                         className="text-capitalize view-all-text"
-//                                         style={{ color: '#1f3dc2' }}
+//                                         style={{ color: '#1b1a30' }}
 //                                         href="#"
 //                                     >
 //                                         View all
@@ -311,7 +311,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -359,7 +359,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -407,7 +407,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -455,7 +455,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -503,7 +503,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -551,7 +551,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -587,7 +587,7 @@ export default SellingSection;
 //                                 <div>
 //                                     <a
 //                                         className="text-capitalize view-all-text"
-//                                         style={{ color: '#1f3dc2' }}
+//                                         style={{ color: '#1b1a30' }}
 //                                         href="https://six.valley.new.zeroitsolutions.com/products?data_from=top-rated&page=1"
 //                                     >
 //                                         View all
@@ -644,7 +644,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -704,7 +704,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -765,7 +765,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -826,7 +826,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -887,7 +887,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',
@@ -948,7 +948,7 @@ export default SellingSection;
 //                                                             minWidth: '30px',
 //                                                             height: '30px',
 //                                                             borderRadius: '50%',
-//                                                             backgroundColor: '#1f3dc2',
+//                                                             backgroundColor: '#1b1a30',
 //                                                             color: '#FFFFFF',
 //                                                             textAlign: 'center',
 //                                                             lineHeight: '30px',

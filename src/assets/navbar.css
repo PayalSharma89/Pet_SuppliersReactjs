@@ -4,7 +4,7 @@
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #1f3dc2;
+    color: #1b1a30;
 }
 
 .dropdown-item.active,
@@ -13,24 +13,24 @@
 }
 
 .navbar-light .navbar-tool-icon-box {
-    color: #1f3dc2;
+    color: #1b1a30;
 }
 
 .search_button {
-    background-color: #1f3dc2;
+    background-color: #1b1a30;
 }
 
 .navbar-stuck-menu {
-    background-color: #1f3dc2;
+    background-color: #1b1a30;
 }
 
 .mega-nav .nav-item .nav-link {
-    color: #1f3dc2 !important;
+    color: #1b1a30 !important;
 }
 
 .owl-theme .owl-nav [class*="owl-"],
 .checkbox-alphanumeric label:hover {
-    border-color: #1f3dc2;
+    border-color: #1b1a30;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -63,14 +63,14 @@
 
 .btn--primary {
     color: #fff;
-    background-color: #1f3dc2 !important;
-    border-color: #1f3dc2 !important;
+    background-color: #1b1a30 !important;
+    border-color: #1b1a30 !important;
 }
 
 .btn--primary:hover {
     color: #fff;
-    background-color: #1f3dc2 !important;
-    border-color: #1f3dc2 !important;
+    background-color: #1b1a30 !important;
+    border-color: #1b1a30 !important;
 }
 
 .btn-secondary {
@@ -80,17 +80,17 @@
 
 .btn-outline-accent:hover {
     color: #fff;
-    background-color: #1f3dc2;
-    border-color: #1f3dc2;
+    background-color: #1b1a30;
+    border-color: #1b1a30;
 }
 
 .btn-outline-accent {
-    color: #1f3dc2;
-    border-color: #1f3dc2;
+    color: #1b1a30;
+    border-color: #1b1a30;
 }
 
 .text-accent {
-    color: #1f3dc2;
+    color: #1b1a30;
 }
 
 .text-base-2,
@@ -101,15 +101,15 @@ a:hover {
 .text-primary,
 .text-base,
 .active-menu {
-    color: #1f3dc2 !important;
+    color: #1b1a30 !important;
 }
 
 .page-item.active>.page-link {
-    box-shadow: 0 0.5rem 1.125rem -0.425rem#1f3dc2
+    box-shadow: 0 0.5rem 1.125rem -0.425rem#1b1a30
 }
 
 .page-item.active .page-link {
-    background-color: #1f3dc2;
+    background-color: #1b1a30;
 }
 
 .btn-outline-accent:not(:disabled):not(.disabled):active,
@@ -120,8 +120,8 @@ a:hover {
 }
 
 .btn-outline-primary {
-    color: #1f3dc2;
-    border-color: #1f3dc2;
+    color: #1b1a30;
+    border-color: #1b1a30;
 }
 
 .btn-outline-primary:hover {
@@ -137,18 +137,18 @@ a:hover {
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-primary.dropdown-toggle {
-    background-color: #1f3dc2;
-    border-color: #1f3dc2;
+    background-color: #1b1a30;
+    border-color: #1b1a30;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0#1f3dc2;
+    box-shadow: 0 0 0 0#1b1a30;
 }
 
 .for-discoutn-value {
-    background: #1f3dc2;
+    background: #1b1a30;
 }
 
 .dropdown-menu {
@@ -156,13 +156,13 @@ a:hover {
 }
 
 :root {
-    --base: #1f3dc2;
+    --base: #1b1a30;
     --base-2: #d38b43;
 }
 
 span.badge-accent {
     color: var(--base);
-    background-color: #1f3dc240;
+    background-color: #1b1a3040;
 }
 
 span.badge-accent:hover {

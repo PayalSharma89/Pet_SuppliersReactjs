@@ -99,7 +99,7 @@ const Fish = () => {
           <a
             href="#"
             className="ms-auto"
-            style={{ color: "#1f3dc2", whiteSpace: "nowrap" }}
+            style={{ color: "#1b1a30", whiteSpace: "nowrap" }}
           >
             View all <i className="czi-arrow-right ml-1"></i>
           </a>
@@ -178,7 +178,7 @@ const Fish = () => {
                       <span>{product.price}</span>
                       <span
                         style={{
-                          backgroundColor: "#1f3dc2",
+                          backgroundColor: "#1b1a30",
                           color: "#fff",
                           borderRadius: "50%",
                           width: "30px",

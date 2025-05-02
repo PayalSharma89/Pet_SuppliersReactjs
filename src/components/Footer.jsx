@@ -5,7 +5,7 @@ function Footer() {
     <div className="__inline-9 rtl">
       <div
         className="d-flex justify-content-center text-center text-md-left mt-3"
-        style={{ background: '#1f3dc210', padding: '20px' }}
+        style={{ background: '#1b1a3010', padding: '20px' }}
       >
         <div className="col-md-3 d-flex justify-content-center">
           <div>
@@ -54,7 +54,7 @@ function Footer() {
       </div>
 
       <footer className="page-footer font-small mdb-color rtl">
-        <div className="pt-4" style={{ background: '#1f3dc220' }}>
+        <div className="pt-4" style={{ background: '#1b1a3020' }}>
           <div className="container text-center __pb-13px">
             <div className="row text-center text-md-left mt-3 pb-3">
               <div className="col-md-3 footer-web-logo">

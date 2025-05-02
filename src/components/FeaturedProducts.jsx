@@ -68,7 +68,7 @@ const FeaturedProducts = () => {
                 <div
                     className="feature-product-title mt-0 text-center fw-bold"
                     style={{
-                        color: "#1f3dc2",
+                        color: "#1b1a30",
                         fontSize: "22px",
                         fontWeight: "800px",
                     }}
@@ -79,7 +79,7 @@ const FeaturedProducts = () => {
                     <a
                         className="text-capitalize view-all-text"
                         href="#"
-                        style={{ color: "#1f3dc2" }}
+                        style={{ color: "#1b1a30" }}
                     >
                         View all <i className="czi-arrow-right ml-1"></i>
                     </a>
@@ -172,7 +172,7 @@ const FeaturedProducts = () => {
                                                             height: "30px",
                                                             borderRadius: "50%",
                                                             backgroundColor:
-                                                                "#1f3dc2",
+                                                                "#1b1a30",
                                                             color: "#FFFFFF",
                                                             textAlign: "center",
                                                             lineHeight: "30px",

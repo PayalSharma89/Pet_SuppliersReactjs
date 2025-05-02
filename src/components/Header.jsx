@@ -123,10 +123,10 @@ const Header = () => {
                         >
                             <img
                                 className="__inline-11"
-                                src="https://six.valley.new.zeroitsolutions.com/storage/app/public/company/2024-01-12-65a12ec16891c.webp"
+                                src="src/assets/images/pet-shop-logo-vector.jpg"
                                 onError={(e) =>
                                     (e.target.src =
-                                        "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                        "https://six.valley.new.zeroitsolutions.com")
                                 }
                                 alt="TestShop"
                             />

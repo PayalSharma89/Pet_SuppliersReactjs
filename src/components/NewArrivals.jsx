@@ -145,7 +145,7 @@ const NewArrivals = () => {
                                     minWidth: "30px",
                                     height: "30px",
                                     borderRadius: "50%",
-                                    backgroundColor: "#1f3dc2",
+                                    backgroundColor: "#1b1a30",
                                     color: "#FFFFFF",
                                     textAlign: "center",
                                     lineHeight: "30px",

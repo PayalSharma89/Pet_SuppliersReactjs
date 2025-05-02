@@ -133,7 +133,7 @@ const Navbar = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
                     height="20"
-                    fill="#1f3dc2"
+                    fill="#1b1a30"
                     viewBox="0 0 22 22"
                     style={{
                       minWidth: "20px",
@@ -200,7 +200,7 @@ const Navbar = () => {
                     <a
                       className="dropdown-item"
                       href="#"
-                      style={{ color: "#1f3dc2" }}
+                      style={{ color: "#1b1a30" }}
                     >
                       View more
                     </a>
