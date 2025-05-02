@@ -9,7 +9,7 @@ const products = [
     price: "$2,000",
     unit: "kg",
     outOfStock: true,
-    image: "",
+    image: "src/assets/images/cat1.webp",
   },
   {
     id: 10,
@@ -17,7 +17,7 @@ const products = [
     price: "$1,000",
     unit: "kg",
     outOfStock: false,
-    image: "",
+    image: "src/assets/images/cat2.webp",
   },
   {
     id: 15,
@@ -25,7 +25,7 @@ const products = [
     price: "$200",
     unit: "pc",
     outOfStock: false,
-    image: "",
+    image: "src/assets/images/cat3.webp",
   },
   {
     id: 17,
@@ -33,7 +33,7 @@ const products = [
     price: "$1,500",
     unit: "kg",
     outOfStock: false,
-    image: "",
+    image: "src/assets/images/cat4.webp",
   },
   {
     id: 18,
@@ -41,7 +41,7 @@ const products = [
     price: "$1,200",
     unit: "kg",
     outOfStock: true,
-    image: "",
+    image: "src/assets/images/cat5.webp",
   },
   {
     id: 19,
@@ -49,7 +49,7 @@ const products = [
     price: "$800",
     unit: "can",
     outOfStock: false,
-    image: "",
+    image: "src/assets/images/cat6.webp",
   },
   {
     id: 20,
@@ -57,7 +57,7 @@ const products = [
     price: "$350",
     unit: "pack",
     outOfStock: false,
-    image: "",
+    image: "src/assets/images/cat7.webp",
   },
   {
     id: 21,
@@ -65,7 +65,7 @@ const products = [
     price: "$650",
     unit: "box",
     outOfStock: false,
-    image: "",
+    image: "src/assets/images/cat8.webp",
   },
   {
     id: 22,
@@ -73,7 +73,7 @@ const products = [
     price: "$900",
     unit: "kg",
     outOfStock: true,
-    image: "",
+    image: "src/assets/images/cat9.webp",
   },
   {
     id: 23,
@@ -81,7 +81,7 @@ const products = [
     price: "$1,800",
     unit: "kg",
     outOfStock: false,
-    image: "",
+    image: "src/assets/images/cat10.webp",
   },
 ];
 
@@ -116,7 +116,7 @@ const Cat = () => {
             breakpoints={{
               576: { slidesPerView: 2 },
               768: { slidesPerView: 3 },
-              992: { slidesPerView: 4 },
+              992: { slidesPerView: 6 },
             }}
           >
             {products.map((product) => (
