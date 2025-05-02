@@ -2,6 +2,13 @@ import React, { useState, useEffect } from "react";
 import "../../src/assets/navbar.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+const brands = ["Happy Cat", "Happy Dog", "Royal Canin", "Beapher", "Bonacibo","Sheba",
+    "Winston","Bonnie","Croque","ProNature","duvo Plus","Jungle","Snacky","QueenCat",
+    "Molly","Felicia","Carpathian","Versele-Laga Lara","Versele-Laga","Morando","Burgess",
+    "KATTOVIT","Purina Gourmet","Webbox","GimDog","GimCat","Proline","Whiskas","Dr.Clauders",
+    "Perfecto","Beak's","Felix","Brit","Trixie","Lechat","Reflex","Mio","Pro Line","Cat Zone",
+    "AK","Pure Life","Wanpy","Mix Brand"];
+
 const Navbar = () => {
     const [isCollapsed, setIsCollapsed] = useState(false);
     const [showAnnouncement, setShowAnnouncement] = useState(true);
@@ -155,11 +162,13 @@ const Navbar = () => {
                                     Brand
                                 </a>
                                 <ul className="dropdown-menu scroll-bar">
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Brand1
+                                {brands.map((brand, index) => (
+                                        <li key={index}>
+                                        <a className="dropdown-item" href="#" >
+                                            {brand}
                                         </a>
-                                    </li>
+                                        </li>
+                                    ))}
                                     <li>
                                         <a
                                             className="dropdown-item"
