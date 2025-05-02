@@ -1,0 +1,21 @@
+ .best-selleing-image {
+    width: 100px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.best-selling-details {
+    margin-left: 13px;
+}
+
+.top-rated-image {
+    width: 100px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.top-rated-details{
+    margin-left: 13px;
+}
