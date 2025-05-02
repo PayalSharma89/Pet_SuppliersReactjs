@@ -13,6 +13,7 @@ import SellingSection from "../src/components/Sellings";
 import Brands from "../src/components/Brands";
 import Cat from "../src/components/Cat";
 import Dog from "../src/components/Dog";
+import Fish from "../src/components/Fish";
 import NewArrivals from "../src/components/NewArrivals";
 import ShippingPolicy from "../src/components/ShippingPolicy";
 
@@ -32,6 +33,7 @@ function App() {
       <Brands />
       <Cat />
       <Dog />
+      <Fish />
       <ShippingPolicy />
       <Footer />
     </>
