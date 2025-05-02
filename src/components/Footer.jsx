@@ -60,7 +60,7 @@ function Footer() {
               <div className="col-md-3 footer-web-logo">
                 <a className="d-block" href="">
                   <img
-                    src="https://six.valley.new.zeroitsolutions.com/storage/app/public/company/2021-02-20-6030c8a02a5f9.png"
+                  src="src/assets/images/pet-shop-logo-vector.jpg"
                     onError={(e) => e.target.src = 'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png'}
                     alt="TestShop"
                   />
