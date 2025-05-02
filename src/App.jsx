@@ -11,29 +11,29 @@ import Footer from "../src/components/Footer";
 import LatestProduct from "./components/LatestProducts";
 import SellingSection from "../src/components/Sellings";
 import Brands from "../src/components/Brands";
+import CategoryProductSection from "../src/components/CategoryProductSection";
 import NewArrivals from "../src/components/NewArrivals";
-import ShippingPolicy from "../src/components/ShippingPolicy"
-// import CategoryProductSection from "../src/components/"
+import ShippingPolicy from "../src/components/ShippingPolicy";
 
 function App() {
-    const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
-    return (
-        <>
-            <Header />
-            <Navbar />
-            <HeroSection />
-            <FeaturedProducts />
-            <CategorySlider />
-            <LatestProduct />
-            <NewArrivals/>
-            <SellingSection/>
-            <Brands/>
-            {/* <CategoryProductSection/> */}
-            <ShippingPolicy/>
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <Navbar />
+      <HeroSection />
+      <FeaturedProducts />
+      <CategorySlider />
+      <LatestProduct />
+      <NewArrivals />
+      <SellingSection />
+      <Brands />
+      <CategoryProductSection />
+      <ShippingPolicy />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
