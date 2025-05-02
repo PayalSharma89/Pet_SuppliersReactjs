@@ -1,0 +1,91 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+const Brands = () => {
+  const brandImages = [
+    { src: "src/assets/images/Brand1.webp", alt: "Brand 1" },
+    { src: "src/assets/images/Brand2.webp", alt: "Brand 2" },
+    { src: "src/assets/images/Brand3.webp", alt: "Brand 3" },
+    { src: "src/assets/images/Brand4.webp", alt: "Brand 4" },
+    { src: "src/assets/images/Brand5.webp", alt: "Brand 5" },
+    { src: "src/assets/images/Brand6.webp", alt: "Brand 6" },
+    { src: "src/assets/images/Brand7.webp", alt: "Brand 7" },
+    { src: "src/assets/images/Brand8.webp", alt: "Brand 8" },
+    { src: "src/assets/images/Brand9.webp", alt: "Brand 9" },
+    { src: "src/assets/images/Brand10.webp", alt: "Brand 10" },
+    { src: "src/assets/images/Brand11.webp", alt: "Brand 10" },
+    { src: "src/assets/images/Brand12.webp", alt: "Brand 10" },
+    { src: "src/assets/images/Brand13.webp", alt: "Brand 10" },
+    { src: "src/assets/images/Brand14.webp", alt: "Brand 10" },
+    { src: "src/assets/images/Brand15.webp", alt: "Brand 10" },
+  ];
+
+  const imageStyle = {
+    borderRadius: "50%",
+    width: "70px",
+    height: "70px",
+    objectFit: "cover",
+    border: "1px solid #eee",
+    padding: "2px",
+    display: "block",
+    margin: "0 auto",
+  };
+
+  return (
+    <div className="brands-section">
+      <div className="container">
+        <div className="row mt-3">
+          <div className="col-md-6">
+            <h2 className="text-black font-bold __text-22px">Brands</h2>
+          </div>
+          <div className="col-md-6 text-md-right">
+            <a
+              className="text-capitalize view-all-text"
+              style={{ color: "#37b4cc" }}
+              href="#"
+            >
+              View All <i className="czi-arrow-right ml-1 mr-n1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className="row mt-4">
+          <div className="col-12">
+            <Swiper
+              modules={[Navigation, Pagination]}
+              spaceBetween={0} // reduced spacing between images
+              slidesPerView={5}
+              navigation
+              pagination={{ clickable: true }}
+              breakpoints={{
+                320: { slidesPerView: 3 },
+                768: { slidesPerView: 5 },
+                1024: { slidesPerView: 11 },
+              }}
+            >
+              {brandImages.map((brand, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={brand.src}
+                    alt={brand.alt}
+                    className="img-fluid"
+                    style={imageStyle}
+                    onError={(e) => {
+                      e.target.src = "https://via.placeholder.com/70";
+                    }}
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Brands;
