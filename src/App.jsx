@@ -1,37 +1,42 @@
 import { useState, useEffect } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Header from "../src/components/Header";
-import Navbar from "../src/components/Navbar";
-import HeroSection from "../src/components/HeroSection";
-import FeaturedProducts from "../src/components/FeaturedProducts";
-import CategorySlider from "../src/components/CategorySlider";
-import Footer from "../src/components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './App.css';
+
+
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+// Pages / Sections
+import HeroSection from "./components/HeroSection";
+import FeaturedProducts from "./components/FeaturedProducts";
+import CategorySlider from "./components/CategorySlider";
 import LatestProduct from "./components/LatestProducts";
-import SellingSection from "../src/components/Sellings";
-import Brands from "../src/components/Brands";
-import Cat from "../src/components/Cat";
-import Dog from "../src/components/Dog";
-import Fish from "../src/components/Fish";
-import SmallBirds from "../src/components/SmallBirds";
-import NewArrivals from "../src/components/NewArrivals";
-import ShippingPolicy from "../src/components/ShippingPolicy";
+import SellingSection from "./components/Sellings";
+import Brands from "./components/Brands";
+import Cat from "./components/Cat";
+import Dog from "./components/Dog";
+import Fish from "./components/Fish";
+import SmallBirds from "./components/SmallBirds";
+import NewArrivals from "./components/NewArrivals";
+import ShippingPolicy from "./components/ShippingPolicy";
+import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
+import Mycart  from "./components/Mycart";
+import Forgot from "./components/Forgot";
+import Product from "./components/Products";
 
 function App() {
-  const [count, setCount] = useState(0);
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
     setShowAd(true);
   }, []);
 
-  const closeModal = () => {
-    setShowAd(false);
-  };
+  const closeModal = () => setShowAd(false);
 
   return (
-    <>
+    <Router>
       {showAd && (
         <div
           style={{
@@ -51,14 +56,13 @@ function App() {
             style={{
               position: "relative",
               backgroundColor: "#fff",
-             padding: '5px',
+              padding: "5px",
               borderRadius: "10px",
-              width: "90%", 
-              maxWidth: "500px", 
+              width: "90%",
+              maxWidth: "500px",
               textAlign: "center",
             }}
           >
-            {/* Close button */}
             <button
               onClick={closeModal}
               style={{
@@ -71,17 +75,12 @@ function App() {
                 borderRadius: "50%",
                 height: "30px",
                 width: "30px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
                 fontSize: "16px",
                 cursor: "pointer",
               }}
             >
               X
             </button>
-
-            {/* Ad image */}
             <img
               src="src/assets/images/Ads.webp"
               alt="Ad"
@@ -94,22 +93,46 @@ function App() {
           </div>
         </div>
       )}
+
       <Header />
       <Navbar />
-      <HeroSection />
-      <FeaturedProducts />
-      <CategorySlider />
-      <LatestProduct />
-      <NewArrivals />
-      <SellingSection />
-      <Brands />
-      <Cat />
-      <Dog />
-      <Fish />
-      <SmallBirds />
-      <ShippingPolicy />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <FeaturedProducts />
+              <CategorySlider />
+              <LatestProduct />
+              <NewArrivals />
+              <SellingSection />
+              <Brands />
+              <Cat />
+              <Dog />
+              <Fish />
+              <SmallBirds />
+              <ShippingPolicy />
+            </>
+          }
+        />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/cat" element={<Cat />} />
+        <Route path="/dog" element={<Dog />} />
+        <Route path="/fish" element={<Fish />} />
+        <Route path="/birds" element={<SmallBirds />} />
+        <Route path="/shipping-policy" element={<ShippingPolicy />} />
+        <Route path="/my-cart" element={<Mycart />} />
+        <Route path="/forgot" element={<Forgot/>} />
+        <Route path="/product-list" element={<Product/>} />
+
+
+      </Routes>
+
       <Footer />
-    </>
+    </Router>
   );
 }
 

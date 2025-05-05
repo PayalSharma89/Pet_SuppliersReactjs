@@ -188,9 +188,9 @@ const Header = () => {
                 </button>
                 <input name="data_from" value="search" hidden />
                 <input name="page" value="1" hidden />
-                <div className="card search-card __inline-13">
-                  <div className="card-body search-result-box __h-400px overflow-x-hidden overflow-y-auto"></div>
-                </div>
+                {/* <div className="card search-card __inline-13"> */}
+                  {/* <div className="card-body search-result-box __h-400px overflow-x-hidden overflow-y-auto"></div> */}
+                {/* </div> */}
               </form>
             </div>
 
@@ -252,11 +252,11 @@ const Header = () => {
                   className="dropdown-menu __auth-dropdown dropdown-menu-right"
                   style={{ textAlign: "left" }}
                 >
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/sign-in">
                     <i className="fa fa-sign-in mr-2"></i> Sign in
                   </a>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/sign-up">
                     <i className="fa fa-user-circle mr-2"></i>
                     Sign up
                   </a>
@@ -276,7 +276,7 @@ const Header = () => {
                     <span className="navbar-tool-label">0</span>
                     <i className="navbar-tool-icon czi-cart"></i>
                   </a>
-                  <a className="navbar-tool-text ml-2" href="#">
+                  <a className="navbar-tool-text ml-2" href="/my-cart">
                     <small>My cart</small> $0
                   </a>
                   <div className="dropdown-menu dropdown-menu-right __w-20rem cart-dropdown py-0">

@@ -168,3 +168,6 @@ span.badge-accent {
 span.badge-accent:hover {
     color: var(--base) !important;
 }
+a {
+    text-decoration: none;
+}

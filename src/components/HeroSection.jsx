@@ -5,6 +5,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "../assets/HeroSection.css";
 
 const HeroSection = () => {
     const [activeCategory, setActiveCategory] = useState(null);
@@ -37,6 +38,7 @@ const HeroSection = () => {
                                             display: "flex",
                                             alignItems: "center",
                                             gap: "10px",
+                                            textDecoration:"none"
                                         }}
                                     >
                                         <img
