@@ -226,7 +226,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy1.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -243,7 +243,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -260,7 +260,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Minkas Perfect Care Poultry & Rice</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -296,7 +296,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy2.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -313,7 +313,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -330,7 +330,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Culinary Adult Farm Poultry</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -366,7 +366,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy3.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -383,7 +383,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -400,7 +400,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Minkas Beef & Salmon</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -436,7 +436,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy4.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -453,7 +453,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -470,7 +470,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Kitten Farm Poultry</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -506,7 +506,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy5.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -540,7 +540,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Kitten & Junior Farm Duck</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -576,7 +576,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy6.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -593,7 +593,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -610,7 +610,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Minkas Beef & Rabbit</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -646,7 +646,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy7.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -663,7 +663,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -680,7 +680,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Minkas Beef & Chicken</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -716,7 +716,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy8.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -733,7 +733,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -750,7 +750,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Minkas Salmon & Chicken</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -786,7 +786,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy9.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -803,7 +803,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -820,7 +820,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy cat minkas Lamb & chicken</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -856,7 +856,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy10.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -873,7 +873,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -890,7 +890,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Minkas Sterilized</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -926,7 +926,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}> 
                           <img
-                            src="#"
+                            src="src/assets/images/happy11.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -943,7 +943,7 @@ const ProductPage = () => {
                           <i className="czi-eye align-middle"></i>
                         </button>
                       </div>
-                      <span className="out_fo_stock">Out of stock</span>
+                      {/* <span className="out_fo_stock">Out of stock</span> */}
                     </div>
 
                     <div className="single-product-details">
@@ -960,7 +960,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Minkas Perfect Mix</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -996,7 +996,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="#"
+                            src="src/assets/images/happy12.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -1030,7 +1030,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat junior Farm Chicken</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">

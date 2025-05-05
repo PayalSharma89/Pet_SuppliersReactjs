@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "../assets/mycart.css"; 
+import "../assets/mycart.css";
 
 const ShoppingCart = () => {
   return (
@@ -14,7 +14,6 @@ const ShoppingCart = () => {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
           rel="stylesheet"
         />
-     
       </head>
 
       <section className="cart py-5">
@@ -40,12 +39,17 @@ const ShoppingCart = () => {
                 <div className="inner_wrapper d-flex flex-column justify-content-center text-center py-3">
                   {/* SVG remains unchanged */}
                   {/* Insert SVG Code Here (unchanged) */}
-                  <span className="d-inline-block mt-2">Your Cart is Empty!</span>
+                  <span className="d-inline-block mt-2">
+                    Your Cart is Empty!
+                  </span>
                 </div>
               </div>
 
               <div className="note_wrapper">
-                <label className="w-100 mb-2 text-capitalize" htmlFor="w3review">
+                <label
+                  className="w-100 mb-2 text-capitalize"
+                  htmlFor="w3review"
+                >
                   Order note (Optional)
                 </label>
                 <textarea
@@ -78,20 +82,31 @@ const ShoppingCart = () => {
                 <hr className="border-aliceblue rounded-0 mt-0 mb-2" />
                 <div className="block-price mb-2 d-flex flex-wrap justify-content-between">
                   <span className="fw-medium color-aliceblue">Total</span>
-                  <span className="fw-medium">-0 IQD</span>    
+                  <span className="fw-medium">-0 IQD</span>
                 </div>
 
-
-
-                <div className="row d-flex justify-content-center bottom-sec">
+                <div
+                  className="row d-flex justify-content-center bottom-sec"
+                  style={{ display: "flex", justifyContent: "space-between" }}
+                >
                   <div className="col text-center p-0">
-                    <img src="src/assets/images/images/img1.jpg
-                    " alt="an image" />
-                    <div className="text">Fast Delivery all across the country</div>
+                    <img
+                      src="src/assets/images/images/img1.jpg
+                    "
+                      alt="an image"
+                      style={{height:"26px",width:"40px"}}
+                    />
+                    <div className="text">
+                      Fast Delivery all across the country
+                    </div>
                   </div>
-                  <div className="col text-center p-0">
-                    <img src="src/assets/images/images/img2.jpg" alt="an image" />
-                    <div className="text">100% Authentic Products</div>
+                  <div className="col text-center p-0" style={{marginLeft:"10px"}}>
+                    <img
+                      src="src/assets/images/images/img2.jpg"
+                      alt="an image"
+                      style={{height:"26px",width:"40px"}}
+                    />
+                    <div className="text" style={{width:"130px"}}>100% Authentic Products</div>
                   </div>
                   <div className="btn-pannel mt-4">
                     <a className="btn btn-primary w-100 d-block" href="#">
