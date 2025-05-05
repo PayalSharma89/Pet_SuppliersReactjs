@@ -187,7 +187,7 @@ const Navbar = () => {
                     <li key={index}>
                       <a
                         className="dropdown-item"
-                        href="#"
+                        href="/product-list"
                         style={{ borderBottom: "1px solid #e9e9e9" }}
                       >
                         {brand}
