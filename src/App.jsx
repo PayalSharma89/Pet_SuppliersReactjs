@@ -25,6 +25,7 @@ import SignUp from "./components/SignUp";
 import Mycart  from "./components/Mycart";
 import Forgot from "./components/Forgot";
 import Product from "./components/Products";
+import Discount from "./components/Discount";
 
 function App() {
   const [showAd, setShowAd] = useState(false);
@@ -127,6 +128,7 @@ function App() {
         <Route path="/my-cart" element={<Mycart />} />
         <Route path="/forgot" element={<Forgot/>} />
         <Route path="/product-list" element={<Product/>} />
+        <Route path="/discounted-products" element={<Discount/>} />
 
 
       </Routes>

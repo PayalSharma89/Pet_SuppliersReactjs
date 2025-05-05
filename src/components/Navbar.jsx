@@ -206,7 +206,7 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/discounts">
+                <a className="nav-link" href="/discounted-products">
                   Discounted products
                 </a>
               </li>
