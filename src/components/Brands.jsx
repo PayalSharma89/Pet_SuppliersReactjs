@@ -44,7 +44,7 @@ const Brands = () => {
           <div className="col-md-6 text-md-right">
             <a
               className="text-capitalize view-all-text"
-              style={{ color: "#1b1a30" }}
+              style={{ color: "#1b1a30" , textDecoration:"none" }}
               href="#"
             >
               View All <i className="czi-arrow-right ml-1 mr-n1"></i>

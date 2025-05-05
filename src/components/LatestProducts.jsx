@@ -135,7 +135,7 @@ const LatestProduct = () => {
                             <div className="mr-1">
                                 <a
                                     className="text-capitalize view-all-text"
-                                    style={{ color: "#1b1a30" }}
+                                    style={{ color: "#1b1a30" ,textDecoration:"none"}}
                                     href="#"
                                 >
                                     View all{" "}
@@ -160,6 +160,8 @@ const LatestProduct = () => {
                                                     <a
                                                         href="#"
                                                         className="w-100"
+                                                        style={{ textDecoration: 'none' }}
+
                                                     >
                                                         <img
                                                             src={product.image}
@@ -183,6 +185,7 @@ const LatestProduct = () => {
                                                                 index + 1
                                                             )
                                                         }
+                                                        style={{ textDecoration: 'none' }}
                                                     >
                                                         <i className="czi-eye align-middle"></i>
                                                     </a>
@@ -190,7 +193,7 @@ const LatestProduct = () => {
                                             </div>
                                             <div className="single-product-details">
                                                 <div className="text-center">
-                                                    <a href="#">
+                                                    <a href="#" style={{ textDecoration: 'none' }}>
                                                         {product.title}
                                                     </a>
                                                 </div>

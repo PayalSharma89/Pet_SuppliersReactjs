@@ -121,6 +121,7 @@ function SellingSection() {
             <a
                 className="__best-selling"
                 href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+                style={{ textDecoration: 'none' }}
             >
                 <div className="d-flex flex-wrap">
                     <div className={isTopRated ? "top-rated-image" : "best-selleing-image"}>
@@ -188,7 +189,7 @@ function SellingSection() {
                                 <div>
                                     <a
                                         className="text-capitalize view-all-text"
-                                        style={{ color: '#1b1a30' }}
+                                        style={{ color: '#1b1a30' ,textDecoration:"none"}}
                                         href="#"
                                     >
                                         View all
@@ -219,7 +220,7 @@ function SellingSection() {
                                 <div>
                                     <a
                                         className="text-capitalize view-all-text"
-                                        style={{ color: '#1b1a30' }}
+                                        style={{ color: '#1b1a30' ,textDecoration:"none"}}
                                         href="https://six.valley.new.zeroitsolutions.com/products?data_from=top-rated&page=1"
                                     >
                                         View all

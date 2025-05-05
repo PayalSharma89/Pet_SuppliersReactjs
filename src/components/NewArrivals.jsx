@@ -121,6 +121,8 @@ const NewArrivals = () => {
                               <a
                                 href="#"
                                 className="flash-product-title text-capitalize fw-semibold"
+                style={{ textDecoration: 'none' }}
+
                               >
                                 {product.name}
                               </a>

@@ -79,7 +79,7 @@ const FeaturedProducts = () => {
                     <a
                         className="text-capitalize view-all-text"
                         href="#"
-                        style={{ color: "#1b1a30" }}
+                        style={{ color: "#1b1a30" , textDecoration:"none"}}
                     >
                         View all <i className="czi-arrow-right ml-1"></i>
                     </a>
@@ -120,7 +120,7 @@ const FeaturedProducts = () => {
                           <span className="for-discoutn-value-null"></span>
                         )}
 
-                        <a href="#">
+                        <a href="#" style={{ textDecoration: 'none' }}>
                           <img
                             src={product.img}
                             alt={product.title}
@@ -136,6 +136,7 @@ const FeaturedProducts = () => {
                             className="btn-circle stopPropagation"
                             href="javascript:void(0)"
                             onClick={() => quickView(product.id)}
+                            style={{ textDecoration: 'none' }}
                           >
                             <i className="czi-eye align-middle"></i>
                           </a>
@@ -148,7 +149,7 @@ const FeaturedProducts = () => {
 
                       <div className="single-product-details">
                         <div>
-                          <a href="#" className="text-capitalize fw-semibold">
+                          <a href="#" className="text-capitalize fw-semibold" style={{ textDecoration: 'none' }}>
                             {product.title}
                           </a>
                         </div>

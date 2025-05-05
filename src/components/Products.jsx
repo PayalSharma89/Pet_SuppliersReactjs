@@ -138,17 +138,17 @@ const ProductPage = () => {
                 </button>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#" style={{ textDecoration: 'none' }}>
                       New Arrival
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#" style={{ textDecoration: 'none' }}>
                       Price (Low to High)
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#" style={{ textDecoration: 'none' }}>
                       Price (High to Low)
                     </a>
                   </li>
@@ -204,10 +204,10 @@ const ProductPage = () => {
                 <span className="h6 mb-0">Categories</span>
               </div>
               <div className="card-body">
-                <a href="#" className="d-block mb-1">
+                <a href="#" className="d-block mb-1" style={{ textDecoration: 'none' }}>
                   Cat Food
                 </a>
-                <a href="#" className="d-block mb-1">
+                <a href="#" className="d-block mb-1" style={{ textDecoration: 'none' }}>
                   Dog Food
                 </a>
               </div>
@@ -224,7 +224,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -260,7 +260,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -294,7 +294,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -330,7 +330,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -364,7 +364,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -400,7 +400,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -434,7 +434,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -470,7 +470,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -504,7 +504,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -540,7 +540,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -574,7 +574,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -610,7 +610,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -644,7 +644,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -680,7 +680,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -714,7 +714,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -750,7 +750,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -784,7 +784,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -820,7 +820,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -854,7 +854,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -890,7 +890,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -924,7 +924,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}> 
                           <img
                             src="#"
                             alt="product"
@@ -960,7 +960,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
@@ -994,7 +994,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100">
+                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="#"
                             alt="product"
@@ -1030,7 +1030,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#">Cate Food Sub Sub</a>
+                        <a href="#" style={{ textDecoration: 'none' }}>Cate Food Sub Sub</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">

@@ -98,7 +98,7 @@ const Dog = () => {
           <a
             href="#"
             className="ms-auto"
-            style={{ color: "#1b1a30", whiteSpace: "nowrap" }}
+            style={{ color: "#1b1a30", whiteSpace: "nowrap" ,textDecoration:"none" }}
           >
             View all <i className="czi-arrow-right ml-1"></i>
           </a>
@@ -166,6 +166,7 @@ const Dog = () => {
                     <a
                       href="#"
                       className="fw-semibold text-capitalize d-block mb-1"
+                      style={{ textDecoration: 'none' }}
                     >
                       {product.title}
                     </a>

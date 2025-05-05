@@ -21,7 +21,7 @@ const CategorySlider = () => {
               <div>
                 <a
                   className="text-capitalize view-all-text"
-                  style={{ color: "#1b1a30" }}
+                  style={{ color: "#1b1a30" ,textDecoration:"none" }}
                   href="#"
                 >
                   View all <i className="czi-arrow-right ml-1 mr-n1"></i>
@@ -37,7 +37,7 @@ const CategorySlider = () => {
                     key={index}
                     className="col-6 col-sm-4 col-md-2 text-center mb-4"
                   >
-                    <a href={category.link}>
+                    <a href={category.link} style={{ textDecoration: 'none' }}>
                       <div className="category-img mx-auto">
                         <img
                           src={category.imgSrc}
@@ -64,7 +64,7 @@ const CategorySlider = () => {
                   className="text-center mr-3 flex-shrink-0"
                   style={{ width: "100px" }}
                 >
-                  <a href={category.link} className="text-decoration-none">
+                  <a href={category.link} className="text-decoration-none" style={{ textDecoration: 'none' }}>
                     <div className="category-img mx-auto">
                       <img
                         src={category.imgSrc}
