@@ -109,7 +109,7 @@ const NewArrivals = () => {
                               src={product.img}
                               onError={(e) => {
                                 e.target.src =
-                                  "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png";
+                                  "#public/assets/front-end/img/image-place-holder.png";
                               }}
                               alt="product"
                             />

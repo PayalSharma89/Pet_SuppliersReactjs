@@ -120,7 +120,7 @@ function SellingSection() {
         <div className="col-sm-6" key={product.id}>
             <a
                 className="__best-selling"
-                href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+                href="#product/dog-food-p2-6u1zvF"
                 style={{ textDecoration: 'none' }}
             >
                 <div className="d-flex flex-wrap">
@@ -129,7 +129,7 @@ function SellingSection() {
                             className="rounded"
                             onError={(e) => {
                                 e.target.src =
-                                    'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+                                    '#public/assets/front-end/img/image-place-holder.png';
                             }}
                             src={product.imageSrc}
                             alt="Product"
@@ -181,7 +181,7 @@ function SellingSection() {
                                 <div>
                                     <img
                                         className="size-30"
-                                        src="https://six.valley.new.zeroitsolutions.com/public/assets/front-end/png/best sellings.png"
+                                        src="#public/assets/front-end/png/best sellings.png"
                                         alt=""
                                     />
                                     <span className="font-bold pl-1">Best sellings</span>
@@ -212,7 +212,7 @@ function SellingSection() {
                                 <div>
                                     <img
                                         className="size-30"
-                                        src="https://six.valley.new.zeroitsolutions.com/public/assets/front-end/png/top-rated.png"
+                                        src="#public/assets/front-end/png/top-rated.png"
                                         alt=""
                                     />
                                     <span className="font-bold pl-1">Top rated</span>
@@ -221,7 +221,7 @@ function SellingSection() {
                                     <a
                                         className="text-capitalize view-all-text"
                                         style={{ color: '#37b4cc' ,textDecoration:"none"}}
-                                        href="https://six.valley.new.zeroitsolutions.com/products?data_from=top-rated&page=1"
+                                        href="#products?data_from=top-rated&page=1"
                                     >
                                         View all
                                         <i className="czi-arrow-right ml-1 mr-n1"></i>
@@ -261,7 +261,7 @@ export default SellingSection;
 //                                 <div>
 //                                     <img
 //                                         className="size-30"
-//                                         src="https://six.valley.new.zeroitsolutions.com/public/assets/front-end/png/best sellings.png"
+//                                         src="#public/assets/front-end/png/best sellings.png"
 //                                         alt=""
 //                                     />
 //                                     <span className="font-bold pl-1">Best sellings</span>
@@ -281,7 +281,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="best-selleing-image">
@@ -291,7 +291,7 @@ export default SellingSection;
 //                                                         e.target.src =
 //                                                             'src/assets/images/sellings1.webp';
 //                                                     }}
-//                                                     src="https://six.valley.new.zeroitsolutions.com/storage/app/public/product/thumbnail/2023-12-13-65792d34a9dec.webp"
+//                                                     src="#storage/app/public/product/thumbnail/2023-12-13-65792d34a9dec.webp"
 //                                                     alt="Product"
 //                                                 />
 //                                             </div>
@@ -329,7 +329,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="best-selleing-image">
@@ -337,7 +337,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/sellings2.webp"
 //                                                     alt="Product"
@@ -377,7 +377,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="best-selleing-image">
@@ -385,7 +385,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/sellings3.webp"
 //                                                     alt="Product"
@@ -425,7 +425,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="best-selleing-image">
@@ -433,7 +433,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/sellings4.webp"
 //                                                     alt="Product"
@@ -473,7 +473,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="top-rated-image">
@@ -481,7 +481,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/sellings5.webp"
 //                                                     alt="Product"
@@ -521,7 +521,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="top-rated-image">
@@ -529,7 +529,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/sellings6.webp"
 //                                                     alt="Product"
@@ -580,7 +580,7 @@ export default SellingSection;
 //                                 <div>
 //                                     <img
 //                                         className="size-30"
-//                                         src="https://six.valley.new.zeroitsolutions.com/public/assets/front-end/png/top-rated.png"
+//                                         src="#public/assets/front-end/png/top-rated.png"
 //                                         alt=""
 //                                     />
 //                                     <span className="font-bold pl-1">Top rated</span>
@@ -589,7 +589,7 @@ export default SellingSection;
 //                                     <a
 //                                         className="text-capitalize view-all-text"
 //                                         style={{ color: '#37b4cc' }}
-//                                         href="https://six.valley.new.zeroitsolutions.com/products?data_from=top-rated&page=1"
+//                                         href="#products?data_from=top-rated&page=1"
 //                                     >
 //                                         View all
 //                                         <i className="czi-arrow-right ml-1 mr-n1"></i>
@@ -602,7 +602,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="top-rated-image">
@@ -610,7 +610,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/rate1.webp"
 //                                                     alt="Product"
@@ -662,7 +662,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="top-rated-image">
@@ -670,7 +670,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/rate2.webp"
 //                                                     alt="Product"
@@ -723,7 +723,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="top-rated-image">
@@ -731,7 +731,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/rate3.webp"
 //                                                     alt="Product"
@@ -784,7 +784,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="top-rated-image">
@@ -792,7 +792,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/rate4.webp"
 //                                                     alt="Product"
@@ -845,7 +845,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="top-rated-image">
@@ -853,7 +853,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/rate5.webp"
 //                                                     alt="Product"
@@ -906,7 +906,7 @@ export default SellingSection;
 //                                 <div className="col-sm-6">
 //                                     <a
 //                                         className="__best-selling"
-//                                         href="https://six.valley.new.zeroitsolutions.com/product/dog-food-p2-6u1zvF"
+//                                         href="#product/dog-food-p2-6u1zvF"
 //                                     >
 //                                         <div className="d-flex flex-wrap">
 //                                             <div className="top-rated-image">
@@ -914,7 +914,7 @@ export default SellingSection;
 //                                                     className="rounded"
 //                                                     onError={(e) => {
 //                                                         e.target.src =
-//                                                             'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png';
+//                                                             '#public/assets/front-end/img/image-place-holder.png';
 //                                                     }}
 //                                                     src="src/assets/images/rate6.webp"
 //                                                     alt="Product"

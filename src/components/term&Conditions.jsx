@@ -13,7 +13,7 @@ const TermsConditions = () => {
           </p>
           <br />
           <p>
-            These Terms and Conditions ("Terms") govern your use of 'Pet Time'
+            These Terms and Conditions ("Terms") govern your use of 'Firulais Online'
             mobile application ("App") and website ("Website") operated by 'Pet
             Time'. By accessing or using our App or Website, you agree to be
             bound by these Terms. If you disagree with any part of the Terms,
@@ -72,7 +72,7 @@ const TermsConditions = () => {
               <p>Intellectual Property</p>
               <p>
                 All content on our App and Website, including text, images,
-                logos, and trademarks, is the property of 'Pet Time' or its
+                logos, and trademarks, is the property of 'Firulais Online' or its
                 licensors and is protected by copyright and other intellectual
                 property laws.
               </p>

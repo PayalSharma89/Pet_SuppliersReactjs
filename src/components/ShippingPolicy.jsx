@@ -12,10 +12,10 @@ function ShippingPolicy() {
               <div className="text-center">
                 <img
                   className="mr-2 size-60"
-                  src="https://six.valley.new.zeroitsolutions.com/storage/app/public/company-reliability/"
+                  src="src/assets/images/images/img1.jpg"
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = 'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/delivery_info.png';
+                    e.target.src = '#public/assets/front-end/img/delivery_info.png';
                   }}
                   alt="Fast Delivery"
                 />
@@ -32,10 +32,10 @@ function ShippingPolicy() {
               <div className="text-center">
                 <img
                   className="mr-2 size-60"
-                  src="https://six.valley.new.zeroitsolutions.com/storage/app/public/company-reliability/"
+                  src="src/assets/images/images/img2.jpg"
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = 'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/authentic_product.png';
+                    e.target.src = '#public/assets/front-end/img/authentic_product.png';
                   }}
                   alt="Authentic Products"
                 />

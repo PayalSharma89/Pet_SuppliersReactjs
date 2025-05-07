@@ -24,7 +24,7 @@ const ProductPage = () => {
           <form
             id="search-form"
             className="d-none d-lg-block"
-            action="https://six.valley.new.zeroitsolutions.com/products"
+            action="#products"
             method="GET"
           >
             <input hidden name="data_from" value="" />
@@ -230,7 +230,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -300,7 +300,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -370,7 +370,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -440,7 +440,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -510,7 +510,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -580,7 +580,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -650,7 +650,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -720,7 +720,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -790,7 +790,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -860,7 +860,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -930,7 +930,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>
@@ -1000,7 +1000,7 @@ const ProductPage = () => {
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
-                                "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                "#public/assets/front-end/img/image-place-holder.png")
                             }
                           />
                         </a>

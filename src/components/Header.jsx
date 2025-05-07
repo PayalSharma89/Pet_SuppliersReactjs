@@ -116,26 +116,22 @@ const Header = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
 
-            {/* Logo for large screens */}
+            {/* Website name for large screens */}
             <a
               className="navbar-brand d-none d-sm-block mr-3 flex-shrink-0 __min-w-7rem"
-              href="https://six.valley.new.zeroitsolutions.com"
+              href="/"
+              style={{
+                fontSize: "32px",
+                fontWeight: "bold",
+                color: "#37b4cc",
+                fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+                letterSpacing: "1px",
+                textDecoration: "none",
+                textShadow: "1px 1px 2px rgba(55, 180, 204, 0.3)",
+                lineHeight: "1",
+              }}
             >
-              <img
-                className="__inline-11"
-                src="src/assets/images/pet-shop-logo-vector.jpg"
-                onError={(e) =>
-                  (e.target.src = "https://six.valley.new.zeroitsolutions.com")
-                }
-                alt="TestShop"
-                style={{
-                  width: "70px",
-                  height: "150px",
-                  objectFit: "contain",
-                //   backgroundColor: "red",
-                //   borderRadius: '50%',
-                }}
-              />
+              Firulais Online
             </a>
 
             {/* Logo for mobile */}
@@ -189,7 +185,7 @@ const Header = () => {
                 <input name="data_from" value="search" hidden />
                 <input name="page" value="1" hidden />
                 {/* <div className="card search-card __inline-13"> */}
-                  {/* <div className="card-body search-result-box __h-400px overflow-x-hidden overflow-y-auto"></div> */}
+                {/* <div className="card-body search-result-box __h-400px overflow-x-hidden overflow-y-auto"></div> */}
                 {/* </div> */}
               </form>
             </div>

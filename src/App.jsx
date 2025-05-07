@@ -1,5 +1,10 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import "./App.css";
 
 import Header from "./components/Header";
@@ -31,18 +36,34 @@ import NearestStores from "./components/Stores";
 import Sidebar from "./components/sidebar";
 import WishlistSection from "./components/WishList";
 import TrackOrder from "./components/MyOrders";
-
+import ProfileSection from "./components/MyProfile";
+import AboutCompany from "./components/AboutCompany";
+import ContactUs from "./components/ContactUs";
+import FAQPage from "./components/FAQ";
 function App() {
+  return (
+    <Router>
+      <Main />
+    </Router>
+  );
+}
+
+function Main() {
+  const location = useLocation();
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
-    setShowAd(true);
-  }, []);
+    if (location.pathname === "/") {
+      setShowAd(true);
+    } else {
+      setShowAd(false);
+    }
+  }, [location]);
 
   const closeModal = () => setShowAd(false);
 
   return (
-    <Router>
+    <>
       {showAd && (
         <div
           style={{
@@ -140,13 +161,18 @@ function App() {
         <Route path="/sidebar" element={<Sidebar />} />
         <Route path="/wishlist" element={<WishlistSection />} />
         <Route path="/orders" element={<TrackOrder />} />
+        <Route path="/profile" element={<ProfileSection />} />
+        <Route path="/about-company" element={<AboutCompany />} />
+        <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/FAQ" element={<FAQPage />} />
+
 
 
 
       </Routes>
 
       <Footer />
-    </Router>
+    </>
   );
 }
 

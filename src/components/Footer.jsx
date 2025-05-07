@@ -1,17 +1,21 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
     <div className="__inline-9 rtl">
       <div
         className="d-flex justify-content-center text-center text-md-left mt-3"
-        style={{ background: '#37b4cc10', padding: '20px' }}
+        style={{ background: "#37b4cc10", padding: "20px" }}
       >
         <div className="col-md-3 d-flex justify-content-center">
           <div>
-            <a href="https://six.valley.new.zeroitsolutions.com/about-us">
+            <a href="/about-company">
               <div className="text-center">
-                <img className="size-60" src="src/assets/images/1746079283608.png" alt="" />
+                <img
+                  className="size-60"
+                  src="src/assets/images/1746079283608.png"
+                  alt=""
+                />
               </div>
               <div className="text-center">
                 <p className="m-0">About Company</p>
@@ -21,7 +25,7 @@ function Footer() {
         </div>
         <div className="col-md-3 d-flex justify-content-center">
           <div>
-            <a href="https://six.valley.new.zeroitsolutions.com/contacts">
+            <a href="/contactus">
               <div className="text-center">
                 <img
                   className="size-60"
@@ -37,7 +41,7 @@ function Footer() {
         </div>
         <div className="col-md-3 d-flex justify-content-center">
           <div>
-            <a href="https://six.valley.new.zeroitsolutions.com/helpTopic">
+            <a href="/FAQ">
               <div className="text-center">
                 <img
                   className="size-60"
@@ -54,16 +58,14 @@ function Footer() {
       </div>
 
       <footer className="page-footer font-small mdb-color rtl">
-        <div className="pt-4" style={{ background: '#37b4cc20' }}>
+        <div className="pt-4" style={{ background: "#37b4cc20" }}>
           <div className="container text-center __pb-13px">
             <div className="row text-center text-md-left mt-3 pb-3">
               <div className="col-md-3 footer-web-logo">
-                <a className="d-block" href="">
-                  <img
-                  src="src/assets/images/pet-shop-logo-vector.jpg"
-                    onError={(e) => e.target.src = 'https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png'}
-                    alt="TestShop"
-                  />
+                <a className="d-block text-decoration-none" href="/">
+                  <h1 className="m-0 fw-bold fs-4 text-dark">
+                    Firulais Online
+                  </h1>
                 </a>
 
                 <div className="mt-4 pt-lg-4">
@@ -74,10 +76,7 @@ function Footer() {
 
                 <div className="store-contents d-flex justify-content-center pr-lg-4">
                   <div className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      role="button"
-                    >
+                    <a href="#" role="button">
                       <img
                         width="100"
                         src="https://six.valley.new.zeroitsolutions.com/public/assets/front-end/png/apple_app.png"
@@ -101,7 +100,9 @@ function Footer() {
               <div className="col-md-9">
                 <div className="row">
                   <div className="col-md-3 footer-padding-bottom">
-                    <h6 className="text-uppercase mb-4 font-weight-bold footer-heder">Special</h6>
+                    <h6 className="text-uppercase mb-4 font-weight-bold footer-heder">
+                      Special
+                    </h6>
                     <ul className="widget-list __pb-10px">
                       <li className="widget-list-item">
                         <a className="widget-list-link" href="#">
@@ -127,44 +128,66 @@ function Footer() {
                   </div>
 
                   <div className="col-md-4 footer-padding-bottom">
-                    <h6 className="text-uppercase mb-4 font-weight-bold footer-heder">Account & Shipping Info</h6>
+                    <h6 className="text-uppercase mb-4 font-weight-bold footer-heder">
+                      Account & Shipping Info
+                    </h6>
                     <ul className="widget-list __pb-10px">
                       <li className="widget-list-item">
-                        <a className="widget-list-link" href="#">Profile Info</a>
+                        <a className="widget-list-link" href="#">
+                          Profile Info
+                        </a>
                       </li>
                       <li className="widget-list-item">
-                        <a className="widget-list-link" href="#">Wish List</a>
+                        <a className="widget-list-link" href="#">
+                          Wish List
+                        </a>
                       </li>
                       <li className="widget-list-item">
-                        <a className="widget-list-link" href="#">Track Order</a>
+                        <a className="widget-list-link" href="#">
+                          Track Order
+                        </a>
                       </li>
                       <li className="widget-list-item">
-                        <a className="widget-list-link" href="#">Refund policy</a>
+                        <a className="widget-list-link" href="#">
+                          Refund policy
+                        </a>
                       </li>
                       <li className="widget-list-item">
-                        <a className="widget-list-link" href="#">Return policy</a>
+                        <a className="widget-list-link" href="#">
+                          Return policy
+                        </a>
                       </li>
                       <li className="widget-list-item">
-                        <a className="widget-list-link" href="#">Cancellation policy</a>
+                        <a className="widget-list-link" href="#">
+                          Cancellation policy
+                        </a>
                       </li>
                     </ul>
                   </div>
 
                   <div className="col-md-5 footer-padding-bottom">
                     <div className="mb-2">
-                      <h6 className="text-uppercase mb-4 font-weight-bold footer-heder">Newsletter</h6>
-                      <span>Subscribe to our new channel to get the latest updates</span>
+                      <h6 className="text-uppercase mb-4 font-weight-bold footer-heder">
+                        Newsletter
+                      </h6>
+                      <span>
+                        Subscribe to our new channel to get the latest updates
+                      </span>
                     </div>
                     <div className="text-nowrap mb-4 position-relative">
                       <form action="#" method="post">
-                        <input type="hidden" name="_token" value="6iLeXF1LaMP7lGTv8FsR1zxmar5Do99WH4Okct7Z" />
+                        <input
+                          type="hidden"
+                          name="_token"
+                          value="6iLeXF1LaMP7lGTv8FsR1zxmar5Do99WH4Okct7Z"
+                        />
                         <input
                           type="email"
                           name="subscription_email"
                           className="form-control subscribe-border"
                           placeholder="Your Email Address"
                           required
-                          style={{ padding: '11px', textAlign: 'left' }}
+                          style={{ padding: "11px", textAlign: "left" }}
                         />
                         <button className="subscribe-button" type="submit">
                           Subscribe
@@ -178,7 +201,9 @@ function Footer() {
                   <div className="col-md-7">
                     <div className="row d-flex align-items-center mobile-view-center-align justify-content-center justify-content-md-start">
                       <div>
-                        <span className="mb-4 font-weight-bold footer-heder">Start a conversation</span>
+                        <span className="mb-4 font-weight-bold footer-heder">
+                          Start a conversation
+                        </span>
                       </div>
                       <div className="flex-grow-1 d-none d-md-block mx-sm-4">
                         <hr className="start_address_under_line" />
@@ -189,18 +214,25 @@ function Footer() {
                         <div>
                           <a className="widget-list-link" href="tel:000000000">
                             <span>
-                              <i className="fa fa-phone m-2"></i> Korek +21 82364723646 Asia +92 7236726137523
+                              <i className="fa fa-phone m-2"></i> Korek +21
+                              82364723646 Asia +92 7236726137523
                             </span>
                           </a>
                         </div>
                         <div>
                           <a className="widget-list-link" href="#">
-                            <span><i className="fa fa-envelope m-2"></i> PetSupplierStore.com </span>
+                            <span>
+                              <i className="fa fa-envelope m-2"></i>{" "}
+                              FirulaisOnlineStore.com{" "}
+                            </span>
                           </a>
                         </div>
                         <div>
                           <a className="widget-list-link" href="#">
-                            <span><i className="fa fa-user-o m-2"></i> Support Ticket </span>
+                            <span>
+                              <i className="fa fa-user-o m-2"></i> Support
+                              Ticket{" "}
+                            </span>
                           </a>
                         </div>
                       </div>
@@ -210,7 +242,9 @@ function Footer() {
                   <div className="col-md-5">
                     <div className="row pl-2 d-flex align-items-center mobile-view-center-align justify-content-center justify-content-md-start">
                       <div>
-                        <span className="mb-4 font-weight-bold footer-heder">Address</span>
+                        <span className="mb-4 font-weight-bold footer-heder">
+                          Address
+                        </span>
                       </div>
                       <div className="flex-grow-1 d-none d-md-block ml-3">
                         <hr className="address_under_line" />
@@ -219,7 +253,7 @@ function Footer() {
                     <div className="pl-2">
                       <span className="__text-14px d-flex align-items-sm-center flex-column flex-sm-row justify-content-center">
                         <i className="fa fa-map-marker m-2"></i>
-                        <span>Pet Suppliers Store Korek</span>
+                        <span>Firulais Online Store Korek</span>
                       </span>
                     </div>
                   </div>
@@ -229,11 +263,13 @@ function Footer() {
           </div>
         </div>
 
-        <div style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
+        <div style={{ background: "rgba(255, 255, 255, 0.05)" }}>
           <div className="container">
             <div className="d-flex flex-wrap end-footer footer-end last-footer-content-align">
               <div className="mt-3">
-                <p className="text-left __text-16px">CopyRight zeroitsolutions@2025</p>
+                <p className="text-left __text-16px">
+                  CopyRight zeroitsolutions@2025
+                </p>
               </div>
               <div className="max-sm-100 justify-content-center d-flex flex-wrap mt-md-3 mt-0 mb-md-3 text-left">
                 <span className="social-media">
@@ -243,7 +279,14 @@ function Footer() {
                     rel="noopener noreferrer"
                     href="#"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 24 24">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                    >
                       <g opacity=".3">
                         <polygon
                           fill="#fff"
@@ -287,7 +330,10 @@ function Footer() {
                     rel="noopener noreferrer"
                     href="#"
                   >
-                    <i className="fa fa-google-plus-square" aria-hidden="true"></i>
+                    <i
+                      className="fa fa-google-plus-square"
+                      aria-hidden="true"
+                    ></i>
                   </a>
                 </span>
                 <span className="social-media">
@@ -323,18 +369,12 @@ function Footer() {
               </div>
               <div className="d-flex __text-14px">
                 <div className="mr-3">
-                  <a
-                    className="widget-list-link"
-                    href="/term&condition"
-                  >
+                  <a className="widget-list-link" href="/term&condition">
                     Terms & Conditions
                   </a>
                 </div>
                 <div>
-                  <a
-                    className="widget-list-link"
-                    href="#"
-                  >
+                  <a className="widget-list-link" href="#">
                     Privacy Policy
                   </a>
                 </div>

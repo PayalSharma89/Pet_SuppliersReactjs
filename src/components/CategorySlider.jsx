@@ -44,7 +44,7 @@ const CategorySlider = () => {
                           alt={category.name}
                           onError={(e) =>
                             (e.target.src =
-                              "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                              "#public/assets/front-end/img/image-place-holder.png")
                           }
                           className="img-fluid"
                         />
@@ -71,7 +71,7 @@ const CategorySlider = () => {
                         alt={category.name}
                         onError={(e) =>
                           (e.target.src =
-                            "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                            "#public/assets/front-end/img/image-place-holder.png")
                         }
                         className="img-fluid"
                       />

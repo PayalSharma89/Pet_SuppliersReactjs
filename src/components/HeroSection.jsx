@@ -38,7 +38,7 @@ const HeroSection = () => {
                                             display: "flex",
                                             alignItems: "center",
                                             gap: "10px",
-                                            textDecoration:"none"
+                                            textDecoration:"none !important"
                                         }}
                                     >
                                         <img
@@ -307,7 +307,7 @@ const HeroSection = () => {
                                             className="w-100"
                                             onError={(e) =>
                                                 (e.target.src =
-                                                    "https://six.valley.new.zeroitsolutions.com/public/assets/front-end/img/image-place-holder.png")
+                                                    "#public/assets/front-end/img/image-place-holder.png")
                                             }
                                         />
                                     </SwiperSlide>

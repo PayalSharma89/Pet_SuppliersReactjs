@@ -1,16 +1,17 @@
 import React from "react";
 import "../assets/sidebar.css";
 
+
 const Sidebar = () => {
   return (
-    <div className="col-lg-4">
+    <div className="col-lg-3">
       <div className="left-sidebar p-3 rounded-2 bg-white border-aliceblue position-sticky top-0">
         <ul className="d-flex flex-column list-unstyled">
           {/* Profile Info */}
           <li className="p-2">
             <a
               className="text-decoration-none d-flex align-items-center gap-2"
-              href="https://six.valley.new.zeroitsolutions.com/user-account"
+              href="/profile"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +32,7 @@ const Sidebar = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span>Profile Info</span>
+              <span>My Profile</span>
             </a>
           </li>
 

@@ -185,7 +185,7 @@ const ProductOne = () => {
                       src="/src/assets/images/pet-shop-logo-vector.jpg"
                       alt="an image"
                     />
-                    <h5 className="fw-semibold">Pet Time</h5>
+                    <h5 className="fw-semibold">Firulais Online</h5>
                   </div>
                 </div>
                 <div className="flex-row blocksgrp d-flex bg-white justify-content-center mt-3 pb-3">
