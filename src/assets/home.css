@@ -35,7 +35,7 @@ button#dropdownMenuButton {
   height: 45px;
 }
 .search-btn {
-  background-color: #1b1a30 !important;
+  background-color: #37b4cc !important;
   border: none !important;
   border-radius: 0 5px 5px 0px !important;
   color: #fff !important;
@@ -48,7 +48,7 @@ button#dropdownMenuButton {
   background-color: #f3f5f9 !important;
   padding: 15px;
   border-radius: 20px;
-  color: #1b1a30;
+  color: #37b4cc;
 }
 .social-icon .user-icons {
   background-color: #f3f5f9 !important;
@@ -60,7 +60,7 @@ button#dropdownMenuButton {
   background-color: #f3f5f9 !important;
   padding: 15px;
   border-radius: 20px;
-  color: #1b1a30 !important;
+  color: #37b4cc !important;
 }
 .social-icon {
   display: flex;

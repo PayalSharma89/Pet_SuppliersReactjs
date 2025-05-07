@@ -132,7 +132,7 @@ const Navbar = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
                     height="20"
-                    fill="#1b1a30"
+                    fill="#37b4cc"
                     viewBox="0 0 22 22"
                     style={{
                       minWidth: "20px",
@@ -174,12 +174,12 @@ const Navbar = () => {
 
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="/">
+                <a className="nav-link fw-bold" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#">
+                <a className="nav-link dropdown-toggle fw-bold" href="#">
                   Brand
                 </a>
                 <ul className="dropdown-menu scroll-bar">
@@ -198,7 +198,7 @@ const Navbar = () => {
                     <a
                       className="dropdown-item"
                       href="#"
-                      style={{ color: "#1b1a30" }}
+                      style={{ color: "#37b4cc" }}
                     >
                       View more
                     </a>
@@ -206,13 +206,13 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/discounted-products">
+                <a className="nav-link  fw-bold" href="/discounted-products">
                   Discounted products
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/sellers">
-                  All sellers
+                <a className="nav-link  fw-bold" href="/stores">
+                  Stores Near You{" "}
                 </a>
               </li>
               <li className="nav-item d-md-none">

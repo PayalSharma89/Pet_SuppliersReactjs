@@ -21,7 +21,7 @@ const CategorySlider = () => {
               <div>
                 <a
                   className="text-capitalize view-all-text"
-                  style={{ color: "#1b1a30" ,textDecoration:"none" }}
+                  style={{ color: "#37b4cc" ,textDecoration:"none" }}
                   href="#"
                 >
                   View all <i className="czi-arrow-right ml-1 mr-n1"></i>

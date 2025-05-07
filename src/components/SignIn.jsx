@@ -22,105 +22,108 @@ const Login = () => {
   };
 
   return (
-    <div className="container d-flex justify-content-center align-items-center min-vh-100 bg-light">
-      <div
-        className="card p-4 shadow-lg border-0"
-        style={{ maxWidth: "420px", width: "100%" }}
-      >
-        <h4 className="text-center mb-4 fw-bold">Login</h4>
+    <div className="container py-4 text-left">
+      <div className="login-card">
+        <div className="mx-auto" style={{ maxWidth: 760 }}>
+          <h2 className="text-center h4 mb-4 font-bold text-capitalize fs-18-mobile">
+            Login
+          </h2>
 
-        <form onSubmit={handleSubmit}>
-          {/* Phone */}
-          <div className="mb-3">
-            <label htmlFor="phone" className="form-label fw-semibold">
-              Phone Number
-            </label>
-            <div className="input-group">
-              <span className="input-group-text">🇮🇶</span>
-              <input
-                type="text"
-                id="phone"
-                name="phone"
-                className="form-control"
-                placeholder="9647xx xxx xxxx"
-                value={formData.phone}
-                onChange={handleChange}
-                required
-              />
+          <form onSubmit={handleSubmit}>
+            <div className="row">
+              {/* Phone input */}
+              <div className="col-sm-6">
+                <div className="form-group">
+                  <label className="form-label font-semibold">
+                    Phone number
+                    <small className="text-primary">
+                      {" "}
+                      ( * Country code is must like for IQ 964 )
+                    </small>
+                  </label>
+                  <div className="input-group">
+                    <div className="input-group-prepend">
+                      <div className="input-group-text">🇮🇶</div>
+                    </div>
+                    <input
+                      className="form-control"
+                      type="text"
+                      name="phone"
+                      placeholder="9647xx xxx xxxx"
+                      required
+                      value={formData.phone}
+                      onChange={handleChange}
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Password input */}
+              <div className="col-sm-6">
+                <div className="form-group">
+                  <label className="form-label font-semibold">Password</label>
+                  <div className="password-toggle rtl">
+                    <input
+                      className="form-control"
+                      name="password"
+                      type={showPassword ? "text" : "password"}
+                      placeholder="Minimum 8 characters"
+                      required
+                      value={formData.password}
+                      onChange={handleChange}
+                    />
+                    <label className="password-toggle-btn">
+                      <i
+                        className={`tio-hidden password-toggle-indicator ${
+                          showPassword ? "tio-visible" : ""
+                        }`}
+                        onClick={() => setShowPassword(!showPassword)}
+                      ></i>
+                      <span className="sr-only">Show password</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          {/* Password */}
-          <div className="mb-3">
-            <label htmlFor="password" className="form-label fw-semibold">
-              Password
-            </label>
-            <div className="input-group">
-              <input
-                type={showPassword ? "text" : "password"}
-                id="password"
-                name="password"
-                className="form-control"
-                placeholder="Minimum 8 characters"
-                value={formData.password}
-                onChange={handleChange}
-                required
-              />
-              <button
-                type="button"
-                className="btn btn-outline-secondary"
-                onClick={() => setShowPassword((prev) => !prev)}
-              >
-                {showPassword ? "🙈" : "👁️"}
-              </button>
+            {/* Forgot Password Link */}
+            <div className="row my-3">
+              <div className="col-sm-6">
+                <a
+                  href="/forgot"
+                  className="text-decoration-none text-primary font-size-sm"
+                >
+                  Forgot password?
+                </a>
+              </div>
             </div>
-            <div className="form-text text-muted">
-              Password must be 8+ characters
+
+            <div style={{ direction: "ltr" }}>
+              <div className="mx-auto mt-4" style={{ maxWidth: 356 }}>
+                <button className="w-100 btn btn--primary" type="submit">
+                  Log In
+                </button>
+              </div>
+
+              <div className="text-center m-3 text-black-50">
+                <small>Or continue with</small>
+              </div>
+
+              <div className="d-flex justify-content-center my-3 gap-2">
+                {/* Social login buttons */}
+              </div>
+
+              <div className="text-black-50 mt-3 text-center">
+                <small>
+                  Enjoy New experience?{" "}
+                  <a className="text-primary" href="/sign-up">
+                    Sign up
+                  </a>
+                </small>
+              </div>
             </div>
-          </div>
-
-          {/* Forgot password */}
-          <div className="d-flex justify-content-between align-items-center mb-3">
-            <a
-              href="/forgot"
-              className="text-decoration-none text-primary"
-            >
-              Forgot password?
-            </a>
-          </div>
-
-          {/* Login button */}
-          <button
-            type="submit"
-            className="btn w-100 fw-semibold"
-            style={{ backgroundColor: "#262d34", borderColor: "#262d34" , color:"white" }}
-          >
-            Log In
-          </button>
-
-          {/* Or continue with */}
-          <div className="text-center my-3 text-muted">
-            <small>Or continue with</small>
-          </div>
-
-          {/* Social login placeholder */}
-          <div className="d-flex justify-content-center gap-2 mb-3">
-            {/* Example: <button className="btn btn-outline-dark btn-sm">Google</button> */}
-          </div>
-
-          {/* Sign up link */}
-          <div className="text-center text-muted">
-            <small>
-              Enjoy New experience?{" "}
-              <a
-                href="/sign-up"
-                className="text-primary"
-              >
-                Sign up
-              </a>
-            </small>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
   );

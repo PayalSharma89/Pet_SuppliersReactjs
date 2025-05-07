@@ -214,7 +214,7 @@ const Header = () => {
               <div className="navbar-tool dropdown d-none d-md-block ml-md-3">
                 <a
                   className="navbar-tool-icon-box bg-secondary dropdown-toggle"
-                  href="#"
+                  href="/wishlist"
                 >
                   <span className="navbar-tool-label">
                     <span className="countWishlist">0</span>

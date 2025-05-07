@@ -1,0 +1,50 @@
+/* Wishlist section css */
+section.wishlist-section .inner-block {
+  background: #f2f2f2;
+  position: relative;
+  transition: 0.4s;
+}
+section.wishlist-section .inner-block .content {
+  color: #37b4cc;
+}
+section.wishlist-section .inner-block:hover {
+  background: #f2f2f2;
+  position: relative;
+  transition: 0.4s;
+}
+section.wishlist-section .left-sidebar {
+  background: rgba(0, 0, 0, 0.1);
+}
+section.wishlist-section .left-sidebar ul li:hover {
+  background: rgba(208, 237, 242, 0.3);
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+section.wishlist-section .left-sidebar ul li a {
+  color: #9b9b9b;
+  transition: 0.4s;
+}
+section.wishlist-section .left-sidebar ul li:hover a {
+  color: #37b4cc !important;
+  transition: 0.4s;
+}
+
+/* Wishlist image sizing and positioning */
+section.wishlist-section .wishlist-inner .block-image {
+  min-height: 300px;
+  max-height: 300px;
+  position: relative;
+}
+
+section.wishlist-section .wishlist-inner .block-image img {
+  position: absolute;
+  left: -100%;
+  top: -100%;
+  bottom: -100%;
+  right: -100%;
+  margin: auto;
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}

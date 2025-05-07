@@ -101,7 +101,7 @@ const Cat = () => {
           <a
             href="#"
             className="ms-auto"
-            style={{ color: "#1b1a30", whiteSpace: "nowrap" , textDecoration:"none" }}
+            style={{ color: "#37b4cc", whiteSpace: "nowrap" , textDecoration:"none" }}
           >
             View all <i className="czi-arrow-right ml-1"></i>
           </a>
@@ -180,7 +180,7 @@ const Cat = () => {
                       <span>{product.price}</span>
                       <span
                         style={{
-                          backgroundColor: "#1b1a30",
+                          backgroundColor: "#37b4cc",
                           color: "#fff",
                           borderRadius: "50%",
                           width: "30px",

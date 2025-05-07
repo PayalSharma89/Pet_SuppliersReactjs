@@ -61,7 +61,7 @@ const LatestProduct = () => {
                         <div className="d-flex justify-content-center align-items-center py-4">
                             <h4
                                 className="font-bold m-0 align-items-center text-uppercase text-center px-2"
-                                style={{ color: "#1b1a30" }}
+                                style={{ color: "#37b4cc" }}
                             >
                                 Recommended product
                             </h4>
@@ -135,7 +135,7 @@ const LatestProduct = () => {
                             <div className="mr-1">
                                 <a
                                     className="text-capitalize view-all-text"
-                                    style={{ color: "#1b1a30" ,textDecoration:"none"}}
+                                    style={{ color: "#37b4cc" ,textDecoration:"none"}}
                                     href="#"
                                 >
                                     View all{" "}

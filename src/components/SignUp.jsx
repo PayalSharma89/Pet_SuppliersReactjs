@@ -165,7 +165,7 @@ const SignUpForm = () => {
                     <a
                       className="font-size-sm"
                       target="_blank"
-                      href="https://www.pettime-iq.com/terms"
+                      href="/term&condition"
                       rel="noreferrer"
                     >
                       Terms and conditions

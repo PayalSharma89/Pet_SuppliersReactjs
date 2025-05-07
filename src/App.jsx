@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css';
-
+import "./App.css";
 
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -22,10 +21,15 @@ import NewArrivals from "./components/NewArrivals";
 import ShippingPolicy from "./components/ShippingPolicy";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
-import Mycart  from "./components/Mycart";
+import Mycart from "./components/Mycart";
 import Forgot from "./components/Forgot";
 import Product from "./components/Products";
 import Discount from "./components/Discount";
+import ProductOne from "./components/ProductOne";
+import TermsConditions from "./components/term&Conditions";
+import NearestStores from "./components/Stores";
+import Sidebar from "./components/sidebar";
+import WishlistSection from "./components/WishList";
 
 function App() {
   const [showAd, setShowAd] = useState(false);
@@ -126,10 +130,14 @@ function App() {
         <Route path="/birds" element={<SmallBirds />} />
         <Route path="/shipping-policy" element={<ShippingPolicy />} />
         <Route path="/my-cart" element={<Mycart />} />
-        <Route path="/forgot" element={<Forgot/>} />
-        <Route path="/product-list" element={<Product/>} />
-        <Route path="/discounted-products" element={<Discount/>} />
-
+        <Route path="/forgot" element={<Forgot />} />
+        <Route path="/product-list" element={<Product />} />
+        <Route path="/discounted-products" element={<Discount />} />
+        <Route path="/productOne" element={<ProductOne />} />
+        <Route path="/term&condition" element={<TermsConditions />} />
+        <Route path="/stores" element={<NearestStores />} />
+        <Route path="/sidebar" element={<Sidebar />} />
+        <Route path="/wishlist" element={<WishlistSection />} />
 
       </Routes>
 

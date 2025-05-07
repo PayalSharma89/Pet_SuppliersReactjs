@@ -224,7 +224,7 @@ const ProductPage = () => {
                         <span className="for-discoutn-value-null"></span>
                       </div>
                       <div className="p-2 pb-0">
-                        <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
+                        <a href="/productOne" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
                             src="src/assets/images/happy1.webp"
                             alt="product"
@@ -260,7 +260,7 @@ const ProductPage = () => {
                       </div>
 
                       <div className="text-center">
-                        <a href="#" style={{ textDecoration: 'none' }}>Happy Cat Minkas Perfect Care Poultry & Rice</a>
+                        <a href="/productOne" style={{ textDecoration: 'none' }}>Happy Cat Minkas Perfect Care Poultry & Rice</a>
                       </div>
 
                       <div className="text-center d-flex flex-wrap justify-content-center align-items-center gap-2">
