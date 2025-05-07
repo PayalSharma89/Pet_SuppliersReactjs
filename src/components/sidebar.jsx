@@ -39,7 +39,7 @@ const Sidebar = () => {
           <li className="p-2">
             <a
               className="text-decoration-none d-flex align-items-center gap-2"
-              href="https://six.valley.new.zeroitsolutions.com/account-oder"
+              href="/orders"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

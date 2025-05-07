@@ -30,6 +30,7 @@ import TermsConditions from "./components/term&Conditions";
 import NearestStores from "./components/Stores";
 import Sidebar from "./components/sidebar";
 import WishlistSection from "./components/WishList";
+import TrackOrder from "./components/MyOrders";
 
 function App() {
   const [showAd, setShowAd] = useState(false);
@@ -138,6 +139,9 @@ function App() {
         <Route path="/stores" element={<NearestStores />} />
         <Route path="/sidebar" element={<Sidebar />} />
         <Route path="/wishlist" element={<WishlistSection />} />
+        <Route path="/orders" element={<TrackOrder />} />
+
+
 
       </Routes>
 
