@@ -8,7 +8,7 @@ const products = [
     price: "$2,000",
     unit: "kg",
     outOfStock: true,
-    image: "src/assets/images/small1.webp",
+    image: "/assets/images/small1.webp",
   },
   {
     id: 10,
@@ -16,7 +16,7 @@ const products = [
     price: "$1,000",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/small2.webp",
+    image: "/assets/images/small2.webp",
   },
   {
     id: 15,
@@ -24,7 +24,7 @@ const products = [
     price: "$200",
     unit: "pc",
     outOfStock: false,
-    image: "src/assets/images/small3.webp",
+    image: "/assets/images/small3.webp",
   },
   {
     id: 17,
@@ -32,7 +32,7 @@ const products = [
     price: "$1,500",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/small4.webp",
+    image: "/assets/images/small4.webp",
   },
   {
     id: 18,
@@ -40,7 +40,7 @@ const products = [
     price: "$1,200",
     unit: "kg",
     outOfStock: true,
-    image: "src/assets/images/small5.webp",
+    image: "/assets/images/small5.webp",
   },
   {
     id: 19,
@@ -48,7 +48,7 @@ const products = [
     price: "$800",
     unit: "can",
     outOfStock: false,
-    image: "src/assets/images/small6.webp",
+    image: "/assets/images/small6.webp",
   },
 ];
 

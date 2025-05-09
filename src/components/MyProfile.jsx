@@ -4,7 +4,7 @@ import "../assets/sidebar.css";
 
 const ProfileSection = () => {
   const [image, setImage] = useState(
-    "src/assets/images/images/1738223142004 (2).png"
+    "/assets/images/images/1738223142004 (2).png"
   );
   const [firstName, setFirstName] = useState("Payal");
   const [lastName, setLastName] = useState("Sharma");

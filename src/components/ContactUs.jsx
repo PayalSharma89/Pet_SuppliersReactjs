@@ -29,7 +29,7 @@ const ContactUs = () => {
           <div className="col-md-6">
             <div className="contact-info bg-white p-4 rounded-3">
               <img
-                src="src/assets/images/images/contact.png"
+                src="/assets/images/images/contact.png"
                 alt="Get in Touch"
                 className="w-100 rounded-3"
                 style={{ maxHeight: "400px", objectFit: "cover" }}

@@ -9,50 +9,50 @@ const products = [
     name: "cate food sub sub",
     price: "$2,000",
     unit: "kg",
-    img: "src/assets/images/Arrivals1.webp",
+    img: "/assets/images/Arrivals1.webp",
   },
   {
     name: "one",
     price: "$23",
     unit: "tets",
     discount: "2%",
-    img: "src/assets/images/Arrivals2.webp",
+    img: "/assets/images/Arrivals2.webp",
   },
   {
     name: "premium cat food",
     price: "$35",
     unit: "kg",
-    img: "src/assets/images/Arrivals3.webp",
+    img: "/assets/images/Arrivals3.webp",
   },
   {
     name: "dog treats",
     price: "$12",
     unit: "pack",
-    img: "src/assets/images/Arrivals4.webp",
+    img: "/assets/images/Arrivals4.webp",
   },
   {
     name: "fish flakes",
     price: "$8",
     unit: "jar",
-    img: "src/assets/images/Arrivals5.webp",
+    img: "/assets/images/Arrivals5.webp",
   },
   {
     name: "pet vitamins",
     price: "$45",
     unit: "bottle",
-    img: "src/assets/images/Arrivals6.webp",
+    img: "/assets/images/Arrivals6.webp",
   },
   {
     name: "rabbit hay",
     price: "$18",
     unit: "kg",
-    img: "src/assets/images/Arrivals1.webp",
+    img: "/assets/images/Arrivals1.webp",
   },
   {
     name: "bird seed mix",
     price: "$22",
     unit: "bag",
-    img: "src/assets/images/Arrivals2.webp",
+    img: "/assets/images/Arrivals2.webp",
   },
 ];
 
@@ -107,10 +107,10 @@ const NewArrivals = () => {
                             <img
                               className="__img-125px"
                               src={product.img}
-                              onError={(e) => {
-                                e.target.src =
-                                  "#public/assets/front-end/img/image-place-holder.png";
-                              }}
+                              // onError={(e) => {
+                              //   e.target.src =
+                              //     "#public/assets/front-end/img/image-place-holder.png";
+                              // }}
                               alt="product"
                             />
                           </div>

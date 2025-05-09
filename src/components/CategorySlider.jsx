@@ -2,11 +2,11 @@ import React from "react";
 
 const CategorySlider = () => {
   const categories = [
-    { name: "🐱 Cat", imgSrc: "src/assets/images/1746077999614.png", link: "#" },
-    { name: "🐶 Dog", imgSrc: "src/assets/images/1746078035785.png", link: "#" },
-    { name: "🐦 Bird", imgSrc: "src/assets/images/1746077977826.png", link: "#" },
-    { name: "🐟 Fish", imgSrc: "src/assets/images/1746078060738.png", link: "#" },
-    { name: "🐰 Small Birds", imgSrc: "src/assets/images/1746078022300.png", link: "#" },
+    { name: "🐱 Cat", imgSrc: "/assets/images/1746077999614.png", link: "#" },
+    { name: "🐶 Dog", imgSrc: "/assets/images/1746078035785.png", link: "#" },
+    { name: "🐦 Bird", imgSrc: "/assets/images/1746077977826.png", link: "#" },
+    { name: "🐟 Fish", imgSrc: "/assets/images/1746078060738.png", link: "#" },
+    { name: "🐰 Small Birds", imgSrc: "/assets/images/1746078022300.png", link: "#" },
   ];
 
   return (
@@ -42,10 +42,10 @@ const CategorySlider = () => {
                         <img
                           src={category.imgSrc}
                           alt={category.name}
-                          onError={(e) =>
-                            (e.target.src =
-                              "#public/assets/front-end/img/image-place-holder.png")
-                          }
+                          // onError={(e) =>
+                          //   (e.target.src =
+                          //     "#public/assets/front-end/img/image-place-holder.png")
+                          // }
                           className="img-fluid"
                         />
                       </div>
@@ -69,10 +69,10 @@ const CategorySlider = () => {
                       <img
                         src={category.imgSrc}
                         alt={category.name}
-                        onError={(e) =>
-                          (e.target.src =
-                            "#public/assets/front-end/img/image-place-holder.png")
-                        }
+                        //onError={(e) =>
+                        //   (e.target.src =
+                        //     "#public/assets/front-end/img/image-place-holder.png")
+                        // }
                         className="img-fluid"
                       />
                     </div>

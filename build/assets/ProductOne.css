@@ -1,0 +1,158 @@
+body {
+  color: #262d34;
+  background: #fafbfc;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.border-aliceblue {
+  border: 1px solid #d6ecff;
+  border-radius: 0.4375rem;
+}
+
+/* img {
+  width: 100%;
+} */
+
+.social_menu {
+  right: 24px;
+  top: 40px;
+}
+.social_menu li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: red;
+}
+.social_menu li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: red;
+}
+.social_menu li svg {
+  height: 15px;
+  width: 15px;
+}
+.fw-22 {
+  font-size: 22px;
+}
+.bg-sky {
+  background: #37b4cc;
+}
+.bg-sky:hover {
+  background: #37b4cc;
+}
+.color-sky {
+  color: #37b4cc;
+}
+.rounded-100 {
+  border-radius: 100%;
+}
+span.quantity {
+  font-size: 12px;
+}
+.w-max-content {
+  width: max-content;
+}
+.btn-secondary {
+  background-color: #d38b43 !important;
+  border-color: #d38b43 !important;
+}
+.trust-wrapper img {
+  max-width: 20px;
+}
+.trust-wrapper {
+  font-size: 14px;
+}
+.trust-wrapper {
+  box-shadow: 0px 0px 2px 0px rgba(205, 205, 205, 0.1),
+    0px 12px 24px 0px rgba(205, 205, 205, 0.1);
+}
+.trust-wrapper li:first-child {
+  border-bottom: 1px #f9f9f9 solid;
+}
+.right-top {
+  padding: 25px;
+}
+.time-wrapper img {
+  max-width: 65px;
+}
+.blocksgrp .flex-col:first-child:before {
+  content: "";
+  top: 20%;
+  bottom: 20%;
+  width: 1px;
+  position: absolute;
+  background: #f2f4f8;
+  right: 0;
+}
+.store-move {
+  font-size: 14px;
+}
+.store-move img {
+  max-width: 105px;
+}
+.hover-header {
+  background: rgba(14, 66, 136, 0.3019607843);
+  opacity: 0;
+  transition: 0.4s;
+}
+.hover-header span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-block {
+  cursor: pointer;
+  transition: 0.4s;
+}
+.inner-block:hover .hover-header {
+  opacity: 1;
+  transition: 0.4s;
+}
+.inner-block img {
+  transform: scale(1);
+  transition: 0.4s;
+}
+.inner-block:hover img {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+ul#myTab {
+  border: 0 !important;
+  justify-content: center;
+}
+ul#myTab button {
+  box-shadow: none !important;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  border-radius: 100px !important;
+  padding: 9px 17px;
+  border: none !important;
+  color: 000;
+}
+ul#myTab button:hover {
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  border-radius: 100px !important;
+  padding: 9px 17px;
+}
+ul#myTab button.active {
+  color: #ffffff !important;
+  background: #37b4cc !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1290px;
+  }
+}

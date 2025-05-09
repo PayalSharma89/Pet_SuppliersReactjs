@@ -6,49 +6,49 @@ const LatestProduct = () => {
             title: "Cat Food Premium",
             price: "$1,200",
             unit: "kg",
-            image: "src/assets/images/2025-03-19-67da79bff1701.webp",
+            image: "/assets/images/2025-03-19-67da79bff1701.webp",
         },
         {
             title: "Buy One Free One",
             price: "$800",
             unit: "pc",
-            image: "src/assets/images/5.webp",
+            image: "/assets/images/5.webp",
         },
         {
             title: "Bird Seed Mix",
             price: "$600",
             unit: "kg",
-            image: "src/assets/images/5.webp",
+            image: "/assets/images/5.webp",
         },
         {
             title: "Puppy Chew Toy",
             price: "$450",
             unit: "pc",
-            image: "src/assets/images/5.webp",
+            image: "/assets/images/5.webp",
         },
         {
             title: "Fish Flakes",
             price: "$200",
             unit: "gm",
-            image: "src/assets/images/5.webp",
+            image: "/assets/images/5.webp",
         },
         {
             title: "Rabbit Pellets",
             price: "$950",
             unit: "kg",
-            image: "src/assets/images/3.webp",
+            image: "/assets/images/3.webp",
         },
         {
             title: "Pet Shampoo",
             price: "$1,100",
             unit: "ml",
-            image: "src/assets/images/5.webp",
+            image: "/assets/images/5.webp",
         },
         {
             title: "Pet Bed Small",
             price: "$2,500",
             unit: "pc",
-            image: "src/assets/images/pet-shop-logo-vector.jpg",
+            image: "/assets/images/pet-shop-logo-vector.jpg",
         },
     ];
 
@@ -70,7 +70,7 @@ const LatestProduct = () => {
                             <div className="d-flex justify-content-center align-items-center __pt-20 __m-20-r">
                                 <div className="position-relative">
                                     <img
-                                        src="src/assets/images/2024-12-15-675e8944b6d53.webp"
+                                        src="/assets/images/2024-12-15-675e8944b6d53.webp"
                                         onError={(e) => {
                                             e.target.onerror = null;
                                             e.target.src =

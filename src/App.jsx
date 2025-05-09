@@ -72,7 +72,7 @@ function Main() {
             left: 0,
             width: "100%",
             height: "100%",
-            backgroundColor: "rgba(0, 0, 0, 0.6)",
+            backgroundColor: "rgba(0, 0, 0, 0.8)",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -109,7 +109,7 @@ function Main() {
               X
             </button>
             <img
-              src="src/assets/images/4.jpg"
+              src="/assets/images/4.jpg"
               alt="Ad"
               style={{
                 width: "100%",
@@ -125,7 +125,7 @@ function Main() {
       <Navbar />
 
       <Routes>
-        <Route
+         <Route
           path="/"
           element={
             <>
@@ -144,6 +144,7 @@ function Main() {
             </>
           }
         />
+        
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/cat" element={<Cat />} />

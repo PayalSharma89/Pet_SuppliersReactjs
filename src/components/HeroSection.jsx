@@ -5,15 +5,15 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "../assets/HeroSection.css";
+import "../../public/assets/HeroSection.css";
 
 const HeroSection = () => {
     const [activeCategory, setActiveCategory] = useState(null);
 
     const sliderImages = [
-        "src/assets/images/1.webp",
-        "src/assets/images/2.webp",
-        "src/assets/images/4.jpg",
+        "/assets/images/1.webp",
+        "/assets/images/2.webp",
+        "/assets/images/4.jpg",
     ];
 
     const handleMouseEnter = (category) => {
@@ -42,7 +42,7 @@ const HeroSection = () => {
                                         }}
                                     >
                                         <img
-                                            src="/src/assets/images/cat.png"
+                                            src="/assets/images/cat.png"
                                             alt="Cat Icon"
                                             width="40"
                                             height="30"
@@ -135,7 +135,7 @@ const HeroSection = () => {
                                         }}
                                     >
                                         <img
-                                            src="/src/assets/images/dog.png"
+                                            src="/assets/images/dog.png"
                                             alt="Dog Icon"
                                             width="40"
                                             height="30"
@@ -213,7 +213,7 @@ const HeroSection = () => {
                                         }}
                                     >
                                         <img
-                                            src="/src/assets/images/1746000741166.png"
+                                            src="/assets/images/1746000741166.png"
                                             alt="Bird Icon"
                                             width="40"
                                             height="30"
@@ -243,7 +243,7 @@ const HeroSection = () => {
                                                     🐦 Health & Vitamins
                                                 </a>
                                             </h6>
-                                        </div>
+                                        </div>Bowl
                                     </div>
                                 </li>
 
@@ -258,7 +258,7 @@ const HeroSection = () => {
                                         }}
                                     >
                                         <img
-                                            src="src/assets/images/1746000809084.png"
+                                            src="/assets/images/1746000809084.png"
                                             alt="Fish Icon"
                                             width="40"
                                             height="30"
@@ -306,10 +306,10 @@ const HeroSection = () => {
                                             alt={`Slide ${idx + 1}`}
                                              className="w-100"
                                              style={{height:"500px"}}
-                                            onError={(e) =>
-                                                (e.target.src =
-                                                    "#public/assets/front-end/img/image-place-holder.png")
-                                            }
+                                            // onError={(e) =>
+                                            //     (e.target.src =
+                                            //         "#public/assets/front-end/img/image-place-holder.png")
+                                            // }
                                         />
                                     </SwiperSlide>
                                 ))}

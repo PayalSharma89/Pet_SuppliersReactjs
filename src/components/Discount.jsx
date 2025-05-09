@@ -226,7 +226,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount1.webp"
+                            src="/assets/images/discount1.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -296,7 +296,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount2.webp"
+                            src="/assets/images/discount2.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -366,7 +366,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount3.webp"
+                            src="/assets/images/discount3.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -436,7 +436,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount4.webp"
+                            src="/assets/images/discount4.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -506,7 +506,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount5.webp"
+                            src="/assets/images/discount5.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -576,7 +576,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount6.webp"
+                            src="/assets/images/discount6.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -646,7 +646,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount7.webp"
+                            src="/assets/images/discount7.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -716,7 +716,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount8.webp"
+                            src="/assets/images/discount8.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -786,7 +786,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount9.webp"
+                            src="/assets/images/discount9.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -856,7 +856,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount10.webp"
+                            src="/assets/images/discount10.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -926,7 +926,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount11.webp"
+                            src="/assets/images/discount11.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -996,7 +996,7 @@ const DiscountedProducts = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100">
                           <img
-                            src="src/assets/images/discount12.webp"
+                            src="/assets/images/discount12.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
