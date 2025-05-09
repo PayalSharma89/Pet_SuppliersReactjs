@@ -4,7 +4,7 @@ module.exports = {
       name: "Pet",
       script: "npx",
       interpreter: "none",
-      args: "serve -s build -l 3002 -T",
+      args: "serve -s build -l 3000 -T",
     },
   ],
 };
