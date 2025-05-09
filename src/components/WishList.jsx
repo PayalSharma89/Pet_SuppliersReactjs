@@ -29,7 +29,7 @@ const WishlistSection = () => {
                   <div className="inner-block rounded-3 overflow-hidden">
                     <div className="block-image overflow-hidden position-relative rounded-0 ">
                       <img
-                        src="src/assets/images/2024-08-01-66ab94358ca99.webp"
+                        src="src/assets/images/4.jpg"
                         alt="an image"
                       />
                     </div>
@@ -50,7 +50,7 @@ const WishlistSection = () => {
                   <div className="inner-block rounded-3 overflow-hidden">
                     <div className="block-image overflow-hidden position-relative rounded-0">
                       <img
-                        src="src/assets/images/2025-04-18-680297ca4c44e (1).webp"
+                        src="src/assets/images/3.webp"
                         alt="an image"
                       />
                     </div>

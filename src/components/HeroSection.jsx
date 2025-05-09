@@ -11,9 +11,9 @@ const HeroSection = () => {
     const [activeCategory, setActiveCategory] = useState(null);
 
     const sliderImages = [
-        "src/assets/images/2024-08-01-66ab94358ca99.webp",
-        "src/assets/images/2024-08-01-66ab94bc786c1.webp",
-        "src/assets/images/2024-08-01-66aba63ad8f7f.webp",
+        "src/assets/images/1.webp",
+        "src/assets/images/2.webp",
+        "src/assets/images/4.jpg",
     ];
 
     const handleMouseEnter = (category) => {
@@ -304,7 +304,8 @@ const HeroSection = () => {
                                         <img
                                             src={src}
                                             alt={`Slide ${idx + 1}`}
-                                            className="w-100"
+                                             className="w-100"
+                                             style={{height:"500px"}}
                                             onError={(e) =>
                                                 (e.target.src =
                                                     "#public/assets/front-end/img/image-place-holder.png")

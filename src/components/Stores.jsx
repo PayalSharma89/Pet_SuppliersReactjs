@@ -11,7 +11,7 @@ const stores = [
     owner: "Mrs. Ayesha Khan",
     location: "Liberty Market, Lahore",
     distance: "1.2 km",
-    image: "src/assets/images/2024-08-01-66ab94358ca99.webp",
+    image: "src/assets/images/4.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const stores = [
     owner: "Mrs. Sana Rehman",
     location: "MM Alam Road, Lahore",
     distance: "2.8 km",
-    image: "src/assets/images/2024-08-01-66ab94358ca99.webp",
+    image: "src/assets/images/4.jpg",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const stores = [
     owner: "Mrs. Hina Tariq",
     location: "Model Town Block H, Lahore",
     distance: "4.5 km",
-    image: "src/assets/images/2024-08-01-66ab94358ca99.webp",
+    image: "src/assets/images/4.jpg",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const stores = [
     owner: "Mrs. Amna Sheikh",
     location: "Sector C, DHA Phase 5, Lahore",
     distance: "6.1 km",
-    image: "src/assets/images/2024-08-01-66ab94358ca99.webp",
+    image: "src/assets/images/4.jpg",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const stores = [
     owner: "Mrs. Rabia Nazeer",
     location: "Johar Town Phase 2, Lahore",
     distance: "7.0 km",
-    image: "src/assets/images/2024-08-01-66ab94358ca99.webp",
+    image: "src/assets/images/4.jpg",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const stores = [
     owner: "Mrs. Fariha Zubair",
     location: "Wapda Town Roundabout, Lahore",
     distance: "8.3 km",
-    image: "src/assets/images/2024-08-01-66ab94358ca99.webp",
+    image: "src/assets/images/4.jpg",
   },
 ];
 
