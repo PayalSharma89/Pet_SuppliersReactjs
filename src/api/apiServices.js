@@ -9,3 +9,4 @@
  * Description :
  * Modified By :
  */
+import fetchHandler from "./fetchHandler";
