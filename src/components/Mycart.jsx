@@ -91,7 +91,7 @@ const ShoppingCart = () => {
                 >
                   <div className="col text-center p-0">
                     <img
-                      src="src/assets/images/images/img1.jpg
+                      src="/assets/images/images/img1.jpg
                     "
                       alt="an image"
                       style={{height:"26px",width:"40px"}}
@@ -102,7 +102,7 @@ const ShoppingCart = () => {
                   </div>
                   <div className="col text-center p-0" style={{marginLeft:"10px"}}>
                     <img
-                      src="src/assets/images/images/img2.jpg"
+                      src="/assets/images/images/img2.jpg"
                       alt="an image"
                       style={{height:"26px",width:"40px"}}
                     />

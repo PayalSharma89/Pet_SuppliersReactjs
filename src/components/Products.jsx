@@ -226,7 +226,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="/productOne" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy1.webp"
+                            src="/assets/images/happy1.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -296,7 +296,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy2.webp"
+                            src="/assets/images/happy2.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -366,7 +366,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy3.webp"
+                            src="/assets/images/happy3.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -436,7 +436,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy4.webp"
+                            src="/assets/images/happy4.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -506,7 +506,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy5.webp"
+                            src="/assets/images/happy5.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -576,7 +576,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy6.webp"
+                            src="/assets/images/happy6.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -646,7 +646,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy7.webp"
+                            src="/assets/images/happy7.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -716,7 +716,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy8.webp"
+                            src="/assets/images/happy8.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -786,7 +786,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy9.webp"
+                            src="/assets/images/happy9.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -856,7 +856,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy10.webp"
+                            src="/assets/images/happy10.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -926,7 +926,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}> 
                           <img
-                            src="src/assets/images/happy11.webp"
+                            src="/assets/images/happy11.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =
@@ -996,7 +996,7 @@ const ProductPage = () => {
                       <div className="p-2 pb-0">
                         <a href="#" className="w-100" style={{ textDecoration: 'none' }}>
                           <img
-                            src="src/assets/images/happy12.webp"
+                            src="/assets/images/happy12.webp"
                             alt="product"
                             onError={(e) =>
                               (e.target.src =

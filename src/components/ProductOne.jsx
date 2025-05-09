@@ -9,35 +9,35 @@ const ProductOne = () => {
   const products = [
     {
       id: 1,
-      image: "src/assets/images/images/cart.jpg",
+      image: "/assets/images/images/cart.jpg",
       title: "Royal Canin Urinary Car...",
       price: "38,000 IQD",
       quantity: "2kg",
     },
     {
       id: 2,
-      image: "src/assets/images/images/cart.jpg",
+      image: "/assets/images/images/cart.jpg",
       title: "Royal Canin Urinary Car...",
       price: "38,000 IQD",
       quantity: "2kg",
     },
     {
       id: 3,
-      image: "src/assets/images/images/cart.jpg",
+      image: "/assets/images/images/cart.jpg",
       title: "Royal Canin Urinary Car...",
       price: "38,000 IQD",
       quantity: "2kg",
     },
     {
       id: 4,
-      image: "src/assets/images/images/cart.jpg",
+      image: "/assets/images/images/cart.jpg",
       title: "Royal Canin Urinary Car...",
       price: "38,000 IQD",
       quantity: "2kg",
     },
     {
       id: 5,
-      image: "src/assets/images/images/cart.jpg",
+      image: "/assets/images/images/cart.jpg",
       title: "Royal Canin Urinary Car...",
       price: "38,000 IQD",
       quantity: "2kg",
@@ -64,7 +64,7 @@ const ProductOne = () => {
                     <div className="cart-inner border-aliceblue py-2 position-relative">
                       <img
                         className="w-100"
-                        src="src/assets/images/images/cart.jpg"
+                        src="/assets/images/images/cart.jpg"
                         alt="Main"
                       />
                     </div>
@@ -81,7 +81,7 @@ const ProductOne = () => {
                           <a href="#">
                             <img
                               className="w-100"
-                              src="src/assets/images/images/cart-short.jpg"
+                              src="/assets/images/images/cart-short.jpg"
                               alt={`Thumbnail ${i}`}
                             />
                           </a>
@@ -168,13 +168,13 @@ const ProductOne = () => {
               <ul className="trust-wrapper m-0 p-0 mb-3 bg-white rounded-3">
                 <li className="px-3 py-3 d-flex align-items-center gap-3">
                   <img
-                    src="/src/assets/images/images/img1.webp"
+                    src="//assets/images/images/img1.webp"
                     alt="an image"
                   />
                   Fast Delivery all across the country
                 </li>
                 <li className="px-3 py-3 d-flex align-items-center gap-3">
-                  <img src="src/assets/images/images/img2.jpg" alt="an image" />
+                  <img src="/assets/images/images/img2.jpg" alt="an image" />
                   100% Authentic Products
                 </li>
               </ul>
@@ -182,7 +182,7 @@ const ProductOne = () => {
                 <div className="time-wrapper">
                   <div className="head-part d-flex align-items-center gap-3">
                     <img
-                      src="/src/assets/images/pet-shop-logo-vector.jpg"
+                      src="//assets/images/pet-shop-logo-vector.jpg"
                       alt="an image"
                     />
                     <h5 className="fw-semibold">Firulais Online</h5>
@@ -1648,7 +1648,7 @@ const ProductOne = () => {
               <div className="store-move mt-3">
                 <h5 className="fw-semibold mb-3">More from the store</h5>
                 <div className="store-blocks d-flex align-items-center p-3 justify-content-between mb-2 bg-white rounded-3 border-aliceblue">
-                  <img src="src/assets/images/p3.webp" alt="an images" />
+                  <img src="/assets/images/p3.webp" alt="an images" />
                   <div className="content-wrap">
                     <span>Buy One Gift One</span>
                     <div className="outer_block d-flex align-items-center gap-2 my-2">
@@ -1670,7 +1670,7 @@ const ProductOne = () => {
                   </div>
                 </div>
                 <div className="store-blocks d-flex align-items-center p-3 justify-content-between bg-white rounded-3 border-aliceblue">
-                  <img src="src/assets/images/p3.webp" alt="an images" />
+                  <img src="/assets/images/p3.webp" alt="an images" />
                   <div className="content-wrap">
                     <span>Buy One Gift One</span>
                     <div className="outer_block d-flex align-items-center gap-2 my-2">

@@ -8,7 +8,7 @@ const products = [
     price: "$2,000",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/fish1.webp",
+    image: "/assets/images/fish1.webp",
   },
   {
     id: 10,
@@ -16,7 +16,7 @@ const products = [
     price: "$1,000",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/fish2.webp",
+    image: "/assets/images/fish2.webp",
   },
   {
     id: 15,
@@ -24,7 +24,7 @@ const products = [
     price: "$200",
     unit: "pc",
     outOfStock: false,
-    image: "src/assets/images/fish3.webp",
+    image: "/assets/images/fish3.webp",
   },
   {
     id: 17,
@@ -32,7 +32,7 @@ const products = [
     price: "$1,500",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/fish4.webp",
+    image: "/assets/images/fish4.webp",
   },
   {
     id: 18,
@@ -40,7 +40,7 @@ const products = [
     price: "$1,200",
     unit: "kg",
     outOfStock: true,
-    image: "src/assets/images/fish5.webp",
+    image: "/assets/images/fish5.webp",
   },
   {
     id: 19,
@@ -48,7 +48,7 @@ const products = [
     price: "$800",  
     unit: "can",
     outOfStock: false,
-    image: "src/assets/images/fish6.webp",
+    image: "/assets/images/fish6.webp",
   },
   {
     id: 20,
@@ -56,7 +56,7 @@ const products = [
     price: "$350",
     unit: "pack",
     outOfStock: false,
-    image: "src/assets/images/fish7.webp",
+    image: "/assets/images/fish7.webp",
   },
   {
     id: 21,
@@ -64,7 +64,7 @@ const products = [
     price: "$650",
     unit: "box",
     outOfStock: false,
-    image: "src/assets/images/fish8.webp",
+    image: "/assets/images/fish8.webp",
   },
   {
     id: 22,
@@ -72,7 +72,7 @@ const products = [
     price: "$900",
     unit: "kg",
     outOfStock: true,
-    image: "src/assets/images/fish10.webp",
+    image: "/assets/images/fish10.webp",
   },
   // {
   //   id: 23,
@@ -80,7 +80,7 @@ const products = [
   //   price: "$1,800",
   //   unit: "kg",
   //   outOfStock: false,
-  //   image: "src/assets/images/fish1.webp",
+  //   image: "/assets/images/fish1.webp",
   // },
 ];
 

@@ -7,7 +7,7 @@ const products = [
     price: "$2,000",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/Dog3.webp",
+    image: "/assets/images/Dog3.webp",
   },
   {
     id: 10,
@@ -15,7 +15,7 @@ const products = [
     price: "$1,000",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/Dog4.webp",
+    image: "/assets/images/Dog4.webp",
   },
   {
     id: 15,
@@ -23,7 +23,7 @@ const products = [
     price: "$200",
     unit: "pc",
     outOfStock: false,
-    image: "src/assets/images/Dog5.webp",
+    image: "/assets/images/Dog5.webp",
   },
   {
     id: 17,
@@ -31,7 +31,7 @@ const products = [
     price: "$1,500",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/Dog6.webp",
+    image: "/assets/images/Dog6.webp",
   },
   {
     id: 18,
@@ -39,7 +39,7 @@ const products = [
     price: "$1,200",
     unit: "kg",
     outOfStock: true,
-    image: "src/assets/images/Dog7.webp",
+    image: "/assets/images/Dog7.webp",
   },
   {
     id: 19,
@@ -47,7 +47,7 @@ const products = [
     price: "$800",  
     unit: "can",
     outOfStock: false,
-    image: "src/assets/images/Dog8.webp",
+    image: "/assets/images/Dog8.webp",
   },
   {
     id: 20,
@@ -55,7 +55,7 @@ const products = [
     price: "$350",
     unit: "pack",
     outOfStock: false,
-    image: "src/assets/images/Dog9.webp",
+    image: "/assets/images/Dog9.webp",
   },
   {
     id: 21,
@@ -63,7 +63,7 @@ const products = [
     price: "$650",
     unit: "box",
     outOfStock: false,
-    image: "src/assets/images/Dog10.webp",
+    image: "/assets/images/Dog10.webp",
   },
   {
     id: 22,
@@ -71,7 +71,7 @@ const products = [
     price: "$900",
     unit: "kg",
     outOfStock: true,
-    image: "src/assets/images/Dog11.webp",
+    image: "/assets/images/Dog11.webp",
   },
   {
     id: 23,
@@ -79,7 +79,7 @@ const products = [
     price: "$1,800",
     unit: "kg",
     outOfStock: false,
-    image: "src/assets/images/Dog12.webp",
+    image: "/assets/images/Dog12.webp",
   },
 ];
 

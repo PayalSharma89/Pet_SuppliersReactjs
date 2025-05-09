@@ -1,0 +1,182 @@
+/* Wishlist section css */
+section.wishlist-section .inner-block {
+  background: #f2f2f2;
+  position: relative;
+  transition: 0.4s;
+}
+section.wishlist-section .inner-block .content {
+  color: #37b4cc;
+}
+section.wishlist-section .inner-block:hover {
+  background: #f2f2f2;
+  position: relative;
+  transition: 0.4s;
+}
+section.wishlist-section .left-sidebar {
+  background: rgba(0, 0, 0, 0.1);
+}
+section.wishlist-section .left-sidebar ul li:hover {
+  background: rgba(208, 237, 242, 0.3);
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+section.wishlist-section .left-sidebar ul li a {
+  color: #9b9b9b;
+  transition: 0.4s;
+}
+section.wishlist-section .left-sidebar ul li:hover a {
+  color: #37b4cc !important;
+  transition: 0.4s;
+}
+
+/* Wishlist image sizing and positioning */
+section.wishlist-section .wishlist-inner .block-image {
+  min-height: 300px;
+  max-height: 300px;
+  position: relative;
+}
+
+section.wishlist-section .wishlist-inner .block-image img {
+  position: absolute;
+  left: -100%;
+  top: -100%;
+  bottom: -100%;
+  right: -100%;
+  margin: auto;
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}
+
+/**** track order css *****/
+
+section.track-order form {
+  max-width: calc(100% - 200px);
+  margin: auto;
+}
+section.track-order form input:focus {
+  box-shadow: none;
+  border-color: #d6ecff;
+}
+section.track-order form input::placeholder {
+  color: #4b566b;
+  opacity: 1; /* Ensures color is not faded in Firefox */
+}
+section.track-order form input::-webkit-input-placeholder {
+  color: #4b566b;
+}
+.track-order form input::-moz-placeholder {
+  color: #4b566b;
+  opacity: 1;
+}
+section.track-order form input:-ms-input-placeholder {
+  color: #4b566b;
+}
+section.track-order form input::-ms-input-placeholder {
+  color: #4b566b;
+}
+.opacity-50 {
+  opacity: 50%;
+}
+.track-inner {
+  box-shadow: 0px 0px 2px rgba(0, 113, 220, 0.15);
+}
+
+/***** Profile info css ****/
+
+.profile-section .dropdow-main {
+  width: 34px;
+  height: 45px;
+}
+.profile-section .dropdow-main .delete-account {
+  top: 100%;
+  width: 350px;
+  left: -100px;
+  box-shadow: 0 0.25rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.03),
+    0 0.275rem 1.25rem -0.0625rem rgba(0, 0, 0, 0.05);
+  border-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.profile-section .dropdow-main .delete-account:hover {
+  color: #37b4cc;
+  transition: 0.4s;
+}
+.profile-section .dropdow-main .dropdown {
+  border: 1px solid #37b4cc;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.profile-section .profile--info .profile-img {
+  width: 125px;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  border: 1px solid rgba(221, 221, 221, 0.4509803922);
+}
+.profile-section .profile--info .profile-img img {
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-section .form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 1.25rem + 2px);
+  padding: 0.625rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4b566b;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #dae1e7;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 0 0 transparent;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-color: #ccebff !important;
+}
+.profile-section .form-control:focus {
+  box-shadow: none !important;
+}
+.profile-section .change-profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #37b4cc;
+  border: 1px solid #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+.profile-section .__customer-profile .form-control {
+  border-color: #ccebff;
+}
+.profile-section .password-toggle-btn {
+  right: 15px;
+}
+.text-primary {
+  color: #37b4cc !important;
+  font-size: 13px;
+}
+.profile-section .left-sidebar li a {
+  color: #9b9b9b;
+}
+
+/* Container css globally */
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1290px;
+  }
+}

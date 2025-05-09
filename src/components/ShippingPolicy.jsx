@@ -12,11 +12,11 @@ function ShippingPolicy() {
               <div className="text-center">
                 <img
                   className="mr-2 size-60"
-                  src="src/assets/images/images/img1.jpg"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = '#public/assets/front-end/img/delivery_info.png';
-                  }}
+                  src="/assets/images/images/img1.jpg"
+                  // onError={(e) => {
+                  //   e.target.onerror = null;
+                  //   e.target.src = '#public/assets/front-end/img/delivery_info.png';
+                  // }}
                   alt="Fast Delivery"
                 />
               </div>
@@ -32,11 +32,11 @@ function ShippingPolicy() {
               <div className="text-center">
                 <img
                   className="mr-2 size-60"
-                  src="src/assets/images/images/img2.jpg"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = '#public/assets/front-end/img/authentic_product.png';
-                  }}
+                  src="/assets/images/images/img2.jpg"
+                  // onError={(e) => {
+                  //   e.target.onerror = null;
+                  //   e.target.src = '#public/assets/front-end/img/authentic_product.png';
+                  // }}
                   alt="Authentic Products"
                 />
               </div>

@@ -6,21 +6,21 @@ import "swiper/css/pagination";
 
 const Brands = () => {
   const brandImages = [
-    { src: "src/assets/images/Brand1.webp", alt: "Brand 1" },
-    { src: "src/assets/images/Brand2.webp", alt: "Brand 2" },
-    { src: "src/assets/images/Brand3.webp", alt: "Brand 3" },
-    { src: "src/assets/images/Brand4.webp", alt: "Brand 4" },
-    { src: "src/assets/images/Brand5.webp", alt: "Brand 5" },
-    { src: "src/assets/images/Brand6.webp", alt: "Brand 6" },
-    { src: "src/assets/images/Brand7.webp", alt: "Brand 7" },
-    { src: "src/assets/images/Brand8.webp", alt: "Brand 8" },
-    { src: "src/assets/images/Brand9.webp", alt: "Brand 9" },
-    { src: "src/assets/images/Brand10.webp", alt: "Brand 10" },
-    { src: "src/assets/images/Brand11.webp", alt: "Brand 11" },
-    { src: "src/assets/images/Brand12.webp", alt: "Brand 12" },
-    { src: "src/assets/images/Brand13.webp", alt: "Brand 13" },
-    { src: "src/assets/images/Brand14.webp", alt: "Brand 14" },
-    { src: "src/assets/images/Brand15.webp", alt: "Brand 15" },
+    { src: "/assets/images/Brand1.webp", alt: "Brand 1" },
+    { src: "/assets/images/Brand2.webp", alt: "Brand 2" },
+    { src: "/assets/images/Brand3.webp", alt: "Brand 3" },
+    { src: "/assets/images/Brand4.webp", alt: "Brand 4" },
+    { src: "/assets/images/Brand5.webp", alt: "Brand 5" },
+    { src: "/assets/images/Brand6.webp", alt: "Brand 6" },
+    { src: "/assets/images/Brand7.webp", alt: "Brand 7" },
+    { src: "/assets/images/Brand8.webp", alt: "Brand 8" },
+    { src: "/assets/images/Brand9.webp", alt: "Brand 9" },
+    { src: "/assets/images/Brand10.webp", alt: "Brand 10" },
+    { src: "/assets/images/Brand11.webp", alt: "Brand 11" },
+    { src: "/assets/images/Brand12.webp", alt: "Brand 12" },
+    { src: "/assets/images/Brand13.webp", alt: "Brand 13" },
+    { src: "/assets/images/Brand14.webp", alt: "Brand 14" },
+    { src: "/assets/images/Brand15.webp", alt: "Brand 15" },
   ];
 
   const imageStyle = {

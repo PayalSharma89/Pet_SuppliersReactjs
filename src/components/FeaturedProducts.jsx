@@ -12,7 +12,7 @@ const products = [
     unit: "pc",
     discount: null,
     outOfStock: false,
-    img: "src/assets/images/p1.webp",
+    img: "/assets/images/p1.webp",
   },
   {
     id: 14,
@@ -21,7 +21,7 @@ const products = [
     unit: "tets",
     discount: "2% Off",
     outOfStock: false,
-    img: "src/assets/images/p2.webp",
+    img: "/assets/images/p2.webp",
   },
   {
     id: 7,
@@ -30,7 +30,7 @@ const products = [
     unit: "kg",
     discount: null,
     outOfStock: true,
-    img: "src/assets/images/p3.webp",
+    img: "/assets/images/p3.webp",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const products = [
     unit: "pc",
     discount: null,
     outOfStock: false,
-    img: "src/assets/images/p4.webp",
+    img: "/assets/images/p4.webp",
   },
   {
     id: 17,
