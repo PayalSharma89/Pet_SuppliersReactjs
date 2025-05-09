@@ -109,11 +109,11 @@ function Main() {
               X
             </button>
             <img
-              src="src/assets/images/Ads.webp"
+              src="src/assets/images/4.jpg"
               alt="Ad"
               style={{
                 width: "100%",
-                height: "auto",
+                height: "400Px",
                 borderRadius: "8px",
               }}
             />
